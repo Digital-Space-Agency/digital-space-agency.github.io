@@ -1,0 +1,99 @@
+/*===============================
+=            Mailing            =
+===============================*/
+
+.mailing-list{
+  background-color: #F41C4D;
+  float: left;
+  width: 100%;
+
+   padding: 45px;
+
+  @include tab {
+      padding: 50px 0px 100px 0px ;
+  }
+
+}
+
+
+.mailing-wrap{
+  width: 100%;
+  max-width: 1020px;
+  margin: auto;
+}
+
+
+
+
+.indicates-required{
+  display: none;
+}
+
+.mc-field-group label{
+ display: none; 
+}
+
+ .button {
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent;
+    padding: 15px 50px;
+
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+    background-color: $dark;
+    color: white;
+
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+    width: 100%;
+
+
+    @include tab{
+        width: 200px;
+        float: left;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+
+.mc-field-group{
+  input{
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent;
+    padding: 15px 50px;
+
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+    background-color: white;
+    color: red;
+
+    font-size: 1.2rem;
+
+    width: 100%;
+
+
+    @include tab{
+        width: calc(100% - 220px);
+        float: left;
+        text-align: left;
+    }
+
+  }
+}

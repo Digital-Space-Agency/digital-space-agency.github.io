@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/*==============================
+=            Colors            =
+==============================*/
+/*====================================
+=            Break points            =
+====================================*/
+/*================================
+=            Includes            =
+================================*/
+/*==============================================
+=            Brake point  –  Mixins            =
+==============================================*/
+/*==================================
+=            How to use            =
+==================================*/
+@media (min-width: 560px) {
+  padding: 0 20px; }
+
+/*=========================================
+=            Wrapping red line            =
+=========================================*/
+/*===================================
+=            Transitions            =
+===================================*/
+/*===============================
+=            Mailing            =
+===============================*/
+.mailing-list {
+  background-color: #F41C4D;
+  float: left;
+  width: 100%;
+  padding: 45px; }
+  @media (min-width: 768px) {
+    .mailing-list {
+      padding: 50px 0px 100px 0px; } }
+
+.mailing-wrap {
+  width: 100%;
+  max-width: 1020px;
+  margin: auto; }
+
+.indicates-required {
+  display: none; }
+
+.mc-field-group label {
+  display: none; }
+
+.button {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0px solid transparent;
+  padding: 15px 50px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  background-color: #191832;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .button {
+      width: 200px;
+      float: left;
+      margin-top: 0;
+      margin-left: 20px; } }
+
+.mc-field-group input {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0px solid transparent;
+  padding: 15px 50px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  background-color: white;
+  color: red;
+  font-size: 1.2rem;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .mc-field-group input {
+      width: calc(100% - 220px);
+      float: left;
+      text-align: left; } }
+
+/*============================================
+=            Clear Font in Webkit            =
+============================================*/
+* {
+  -webkit-font-smoothing: antialiased; }
+
+/*======================================================
+=            Reset Box Sizing to border box            =
+======================================================*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+/*===============================
+=            General            =
+===============================*/
+body {
+  background-color: #191832;
+  background-image: url(../img/page-bg.jpg);
+  background-size: cover;
+  color: white;
+  margin: 0 !important;
+  overflow-x: hidden;
+  font-family: 'Avenir LT Std';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px; }
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px; } }
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px; } }
+  @media (min-width: 1600px) {
+    body {
+      font-size: 22px; } }
+
+img {
+  max-width: 100%; }
+
+/*==============================
+=            Layout            =
+==============================*/
+.main-wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden; }
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 45px;
+  margin-top: 100px;
+  margin-bottom: 200px; }
+  @media (min-width: 768px) {
+    .container {
+      padding: 80px;
+      margin-top: 200px;
+      margin-bottom: 200px; } }
+  @media (min-width: 1200px) {
+    .container {
+      padding: 100px;
+      margin-top: 200px;
+      margin-bottom: 200px; } }
+  .container ul {
+    margin: 0;
+    padding: 0; }
+
+/*=========================================
+=            Parallax Elements            =
+=========================================*/
+/*====================================
+=            Main Content            =
+====================================*/
+.brand {
+  position: relative; }
+  .brand img {
+    max-width: 60%; }
+
+.logo {
+  -webkit-animation: fadein 4s ease-in;
+          animation: fadein 4s ease-in;
+  position: relative; }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    left: 10%; }
+  50% {
+    opacity: 0;
+    left: 10%; }
+  100% {
+    opacity: 1;
+    left: 0%; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    left: 10%; }
+  50% {
+    opacity: 0;
+    left: 10%; }
+  100% {
+    opacity: 1;
+    left: 0%; } }
+
+.plus {
+  position: absolute;
+  left: -25px;
+  top: 25%;
+  width: 30px;
+  -webkit-animation: spin 10s infinite ease-out;
+          animation: spin 10s infinite ease-out; }
+  @media (min-width: 768px) {
+    .plus {
+      left: -35px;
+      top: 25%;
+      width: 45px; } }
+  @media (min-width: 1200px) {
+    .plus {
+      left: -55px;
+      top: 25%;
+      width: 60px; } }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  80% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  80% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg); } }
+
+.astronaut {
+  position: absolute;
+  width: 150px;
+  margin-top: -90px;
+  left: 50% !important; }
+  @media (min-width: 768px) {
+    .astronaut {
+      width: 380px;
+      margin-top: -210px; } }
+
+#container .astronaut img {
+  -webkit-transform: rotate(0deg) !important;
+          transform: rotate(0deg) !important;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease; }
+
+#container:hover .astronaut img {
+  -webkit-transform: rotate(20deg) !important;
+          transform: rotate(20deg) !important;
+  -webkit-transition: all 10s ease;
+  transition: all 10s ease; }
+
+.astronaut-triangles {
+  position: absolute;
+  width: 150px;
+  left: 50% !important;
+  padding-top: 50px; }
+  @media (min-width: 768px) {
+    .astronaut-triangles {
+      width: 380px; } }
+
+.zig-zag {
+  width: 120px; }
+  @media (min-width: 768px) {
+    .zig-zag {
+      width: 240px;
+      margin-top: 20px; } }
+
+/*============================
+=            Moon            =
+============================*/
+.moon-container {
+  width: 100%;
+  margin-top: 300px; }
+  @media (min-width: 768px) {
+    .moon-container {
+      margin-top: 350px; } }
+
+.moon img {
+  position: absolute;
+  width: 30%;
+  max-width: 650px;
+  right: -10%;
+  bottom: -20px; }
+  @media (min-width: 560px) {
+    .moon img {
+      bottom: -50px; } }
+
+/*=====================================
+=            Top Triangles            =
+=====================================*/
+.triangles-top-wrap {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  padding: 0;
+  margin: 0; }
+  .triangles-top-wrap ul {
+    margin: 0;
+    padding: 0; }
+  .triangles-top-wrap li {
+    margin: -20px; }
+  .triangles-top-wrap img {
+    width: 150px; }
+    @media (min-width: 768px) {
+      .triangles-top-wrap img {
+        width: 250px; } }
+    @media (min-width: 1200px) {
+      .triangles-top-wrap img {
+        width: 350px; } }
+/*# sourceMappingURL=main.css.map */

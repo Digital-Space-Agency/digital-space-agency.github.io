@@ -1,0 +1,316 @@
+/*==============================
+=            Colors            =
+==============================*/
+// $main: #5F4B8B;
+// $sec: #2db56d;
+$dark: #191832;
+
+
+
+/*====================================
+=            Break points            =
+====================================*/
+
+// Smartphones
+$mob-bp: 560px;
+
+// Tablets smartphones
+$tab-bp: 768px;
+
+// Laptops smartphones
+$lap-bp: 1200px;
+
+// Desktop smartphones
+$desk-bp: 1600px;
+
+
+/*================================
+=            Includes            =
+================================*/
+
+// Mixins
+@import 'mixins';
+@import 'mailchimp';
+
+
+/*============================================
+=            Clear Font in Webkit            =
+============================================*/
+*  {
+	-webkit-font-smoothing: antialiased;
+}
+
+/*======================================================
+=            Reset Box Sizing to border box            =
+======================================================*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*===============================
+=            General            =
+===============================*/
+body{
+	background-color: $dark;
+	background-image: url(../img/page-bg.jpg);
+	background-size: cover;
+	color: white;
+	
+	margin: 0 !important;
+
+	overflow-x: hidden;
+
+	font-family: 'Avenir LT Std';
+	font-weight: 500;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    
+    @include tab {
+        font-size: 18px;
+	}
+	
+	@include lap {
+        font-size: 20px;
+	}
+
+	@include desk {
+        font-size: 22px;
+	}
+
+}
+
+img{
+	max-width: 100%;
+}
+
+
+/*==============================
+=            Layout            =
+==============================*/
+
+.main-wrap{
+	// border: 5px solid green;
+	position: relative;
+	top: 0;
+	left: 0;
+
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	height: 100%;
+	width: 100%;
+	min-height: 500px;
+
+	overflow: hidden;
+
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+
+	padding: 45px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+
+	@include tab {
+        padding: 80px;
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+
+	@include lap {
+		padding: 100px;
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+		
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
+
+/*=========================================
+=            Parallax Elements            =
+=========================================*/
+
+/*====================================
+=            Main Content            =
+====================================*/
+
+.brand{
+	position: relative;
+	img{
+		max-width: 60%;
+	}
+}
+
+.logo{
+	animation: fadein 4s ease-in;
+	position: relative;
+}
+
+@keyframes fadein {
+    0%  {	
+    	opacity: 0;
+    	left: 10%;
+    }
+    50%  {	
+    	opacity: 0;
+    	left: 10%;
+    }
+    100%  {	
+    	opacity: 1;
+    	left: 0%;
+    }
+}
+
+.plus{
+	position: absolute;
+	left: -25px;
+	top: 25%;
+	width: 30px;
+	
+	@include tab {
+      	left: -35px;
+		top: 25%;
+		width: 45px;
+	}
+
+	@include lap {
+      	left: -55px;
+		top: 25%;
+		width: 60px;
+	}
+
+	animation: spin 10s infinite ease-out;
+
+}
+
+@keyframes spin {
+    0%  {	transform: rotate(0deg);}
+    80%  {	transform: rotate(0deg);}
+    100% {	transform: rotate(1080deg);}   
+}
+
+.astronaut{
+	position: absolute;
+	width: 150px;
+	margin-top: -90px;
+	// border: 2px solid yellow;
+	left: 50% !important;
+
+	@include tab{
+		width: 380px;
+		margin-top: -210px;
+	}
+
+}
+
+#container .astronaut img{
+	transform: rotate(0deg) !important;
+	transition: all 3s ease;
+}
+#container:hover .astronaut img{
+	transform: rotate(20deg) !important;
+	transition: all 10s ease;
+}
+
+.astronaut-triangles{
+	position: absolute;
+	width: 150px;
+	
+	left: 50% !important;
+	padding-top: 50px;
+
+	@include tab{
+		width: 380px;
+		
+	}
+}
+
+.zig-zag{
+	width: 120px;
+
+	@include tab{	
+		width: 240px;	
+		margin-top: 20px;
+	}
+}
+/*============================
+=            Moon            =
+============================*/
+
+.moon-container{
+	width: 100%;
+
+	margin-top: 300px;
+	
+	@include tab{	
+		margin-top: 350px;
+	}
+
+}
+
+.moon{
+
+	img{
+		position: absolute;
+		width: 30%;
+		max-width: 650px;
+		right: -10%;
+		bottom: -20px;
+
+		@include mob{	
+			bottom: -50px;
+		}
+	}
+}
+
+/*=====================================
+=            Top Triangles            =
+=====================================*/
+
+.triangles-top-wrap{
+	position: absolute;
+	left: 0 !important;
+	top: 0 !important;
+
+	padding: 0;
+	margin: 0;
+
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	li{	margin: -20px;}
+
+
+	img{
+		width: 150px;
+
+		@include tab {
+        	width: 250px;
+		}
+		
+		@include lap {
+        	width: 350px;
+		}
+
+	}
+}
+
