@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1972px" height="1758px" viewBox="0 0 1972 1758" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>parallax-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="396.93451" y="295.5" width="2597" height="3241" rx="550"></rect>
+        <filter x="-12.0%" y="-8.3%" width="124.0%" height="119.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="97" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0674535779 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="parallax-4" transform="translate(-448.000000, -2082.000000)">
+            <rect id="Rectangle-8" x="448" y="2082" width="1776" height="1564"></rect>
+            <g id="Rectangle" transform="translate(1695.434510, 1916.000000) rotate(-16.000000) translate(-1695.434510, -1916.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

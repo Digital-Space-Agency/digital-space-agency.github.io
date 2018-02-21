@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "7C45911D-C6C2-438D-B413-CA02CF6B1143"
+		"uuidString": "41AA6F44-ED57-4B06-A852-CC46115868E5"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/assets\/css\/main.css": {
 		"aP": 1,
@@ -57,108 +57,136 @@
 		"oAP": "\/assets\/font\/subset-AvenirLTStd-Medium.woff2",
 		"oF": 0
 		},
-	"\/assets\/img\/Astronaut.png": {
-		"ft": 32768,
-		"iS": 262579,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Astronaut.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Dots Circle Astronaut.png": {
-		"ft": 32768,
-		"iS": 13150,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Dots Circle Astronaut.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Dots-Triangles-Astronaut@2x.png": {
-		"ft": 32768,
-		"iS": 6576,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Dots-Triangles-Astronaut@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Dots-Triangles.png": {
-		"ft": 32768,
-		"iS": 38284,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Dots-Triangles.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Logo.png": {
-		"ft": 32768,
-		"iS": 35326,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Logo@2x.png": {
-		"ft": 32768,
-		"iS": 79543,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Logo@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Moon.png": {
-		"ft": 32768,
-		"iS": 697136,
-		"oA": 0,
-		"oAP": "\/assets\/img\/Moon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/page-bg.jpg": {
-		"ft": 16384,
-		"iS": 68160,
-		"oA": 0,
-		"oAP": "\/assets\/img\/page-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/assets\/img\/Plus.svg": {
+	"\/assets\/images\/Branding-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/Plus.svg",
+		"oAP": "\/assets\/images\/Branding-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/ZigZag.svg": {
+	"\/assets\/images\/Development-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/ZigZag.svg",
+		"oAP": "\/assets\/images\/Development-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/Logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/Logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/parallax-1.png": {
+		"ft": 32768,
+		"iS": 11572,
+		"oA": 0,
+		"oAP": "\/assets\/images\/parallax-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/parallax-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/parallax-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/parallax-2.png": {
+		"ft": 32768,
+		"iS": 17249,
+		"oA": 0,
+		"oAP": "\/assets\/images\/parallax-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/parallax-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/parallax-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/parallax-3.png": {
+		"ft": 32768,
+		"iS": 23801,
+		"oA": 0,
+		"oAP": "\/assets\/images\/parallax-3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/parallax-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/parallax-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/parallax-4.png": {
+		"ft": 32768,
+		"iS": 28130,
+		"oA": 0,
+		"oAP": "\/assets\/images\/parallax-4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/parallax-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/parallax-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/Subscribe.png": {
+		"ft": 32768,
+		"iS": 1294337,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Subscribe.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/UX-UI-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/UX-UI-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -174,7 +202,7 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/sass\/_mailchimp.scss": {
+	"\/assets\/scss\/_mailchimp.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -182,12 +210,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/_mailchimp.css",
+		"oAP": "\/assets\/scss\/_mailchimp.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/_mixins.scss": {
+	"\/assets\/scss\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -195,12 +223,32 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/_mixins.css",
+		"oAP": "\/assets\/scss\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/main.scss": {
+	"\/assets\/scss\/_pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/_pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/main": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/main",
+		"oF": 0
+		},
+	"\/assets\/scss\/main.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -212,6 +260,17 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/DSA-Share-Image.png": {
+		"ft": 32768,
+		"iS": 48298,
+		"oA": 0,
+		"oAP": "\/DSA-Share-Image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -226,10 +285,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 539953939,
-	"displayValue": "SpaceAgency",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-facepalm"
+	"creationDate": 540658258,
+	"displayValue": "Digital Space Agency - Corporate",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-jake"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -237,6 +296,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

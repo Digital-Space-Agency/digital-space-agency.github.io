@@ -1,0 +1,321 @@
+/*==============================
+=            Colors            =
+==============================*/
+
+$pri: #260780;
+$sec: #FF706F;
+$dark: #191832;
+
+
+
+
+/*====================================
+=            Break points            =
+====================================*/
+
+// Smartphones
+$mob-bp: 560px;
+
+// Tablets smartphones
+$tab-bp: 768px;
+
+// Laptops smartphones
+$lap-bp: 1200px;
+
+// Desktop smartphones
+$desk-bp: 1600px;
+
+
+
+/*================================
+=            Includes            =
+================================*/
+
+// Mixins
+@import 'mixins';
+@import 'pulse';
+@import 'mailchimp';
+
+
+
+/*============================================
+=            Clear Font in Webkit            =
+============================================*/
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*======================================================
+=            Reset Box Sizing to border box            =
+======================================================*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+/*===============================
+=            General            =
+===============================*/
+
+
+body {
+    color: $pri;
+    background-color: white;
+
+    margin: 0 !important;
+
+    overflow-x: hidden;
+    position: relative;
+
+
+    font-family: 'Avenir LT Std';
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+    @include tab {
+        font-size: 18px;
+    }
+
+    @include tab {
+        font-size: 22px;
+    }
+}
+
+/*================================
+=            Parallax            =
+================================*/
+.parallaxWrap{
+    position: absolute;
+    right: 0;
+
+    width: 90%;
+    overflow: hidden;
+    max-width: 1800px;
+}
+
+#scene{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    
+    position: relative;
+    z-index: -1;
+
+    transform: translate(30%, -30%) !important;
+    -webkit-transform: translate(30%, -30%) !important;
+    
+
+    div{
+        width: 100%;
+        text-align: right;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2;
+
+    @include tab {
+        font-size: 3em;
+    }
+
+    @include lap {
+        font-size: 4em;
+    }
+
+    @include desk {
+        font-size: 5em;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5;
+
+    @include tab {
+        font-size: 1.8em;
+    }
+
+    @include lap {
+        font-size: 2em;
+    }
+
+    @include desk {
+        font-size: 2.5em;
+    }
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.5;
+
+    @include lap {
+        font-size: 1.5em;
+    }
+}
+
+.info {
+    font-size: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: $pri;
+}
+
+.more {
+    position: relative;
+    left: 0;
+    bottom: -0.15em;
+    font-size: 1.5em;
+    
+
+    transition: all 0.5s ease;
+}
+
+a:hover .more {
+    left: 10px;
+    transition: all 0.5s ease;    
+}
+
+
+p {
+    max-width: 800px;
+}
+
+
+
+/*============================
+=            Main            =
+============================*/
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px;
+    padding-top: 5%;
+
+    @include desk {
+        padding-top: 2%;
+    }
+}
+
+
+.section {
+    margin-bottom: 100px;
+
+    animation: fadeInUp 2.5s;
+}
+
+.row {
+    @include tab {
+        display: flex;
+        margin: 0 -20px;
+    }
+}
+
+
+/*==================================
+=            Navigation            =
+==================================*/
+
+nav {
+    padding: 10px 20px;
+
+    @include tab {
+        padding: 20px 40px;
+    }
+}
+
+
+
+/*============================
+=            Hero            =
+============================*/
+
+.contact-us-button {}
+
+.button-text {
+    margin-left: 30px;
+    position: relative;
+}
+
+
+/*================================
+=            Features            =
+================================*/
+
+.features {
+    text-align: left;
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    article {
+        margin-bottom: 40px;
+
+        @include tab {
+            padding: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/*==================================
+=            Animations            =
+==================================*/
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}

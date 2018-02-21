@@ -1,0 +1,86 @@
+.contact-bottom {
+    background-color: $sec;
+    background-image: linear-gradient(to right, #FF706F 0%, #FDE0C2 100%);
+}
+
+.subscribe {
+    // background-image: -webkit-linear-gradient(left, #FF706F 0%, #FDE0C2 100%);
+    // background-image: -o-linear-gradient(left, #FF706F 0%, #FDE0C2 100%);
+    background-image: url("../images/Subscribe.png");
+    background-size: cover;
+    background-position: center center;
+
+    position: relative;
+    z-index: 2;
+
+    color: white;
+    padding: 50px 0 90px 0;
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.mailing-wrap {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+
+input {
+    border: none;
+    padding: 15px;
+
+    display: block;
+    font-size: .9em;
+
+    width: 100%;
+}
+
+.button {
+    border: none;
+    background-color: $sec;
+
+    color: white;
+    font-size: .9em;
+    padding: 20px 20px;
+    width: 30%;
+    min-width: 100px;
+}
+
+form {
+    display: flex; // border: 2px solid blue;
+    box-shadow: 0 22px 64px 0 rgba(209, 81, 80, 1);
+    border-radius: 6px;
+
+    overflow: hidden;
+}
+
+
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+footer {
+    background-color: $sec;
+    color: white;
+
+    font-size: .8em;
+
+    padding: 10px;
+    text-align: center;
+
+    width: 100%;
+
+    position: relative;
+    z-index: 1;
+
+    margin-top: -40px;
+
+    p {
+        margin: auto;
+    }
+}

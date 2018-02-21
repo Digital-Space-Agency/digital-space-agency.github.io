@@ -1,47 +1,43 @@
-
-
 /*==============================================
 =            Brake point  –  Mixins            =
 ==============================================*/
 
-
-
-
 @mixin mob {
-   @media (min-width: #{$mob-bp}) {
-       @content;
-   }
+    @media (min-width: #{$mob-bp}) {
+        @content;
+    }
 }
 
 @mixin mob-max {
-   @media (max-width: #{$mob-bp}) {
-       @content;
-   }
+    @media (max-width: #{$mob-bp}) {
+        @content;
+    }
 }
 
 @mixin tab {
-   @media (min-width: #{$tab-bp}) {
-       @content;
-   }
+    @media (min-width: #{$tab-bp}) {
+        @content;
+    }
 }
 
 @mixin tab-max {
-   @media (max-width: #{$tab-bp}) {
-       @content;
-   }
+    @media (max-width: #{$tab-bp}) {
+        @content;
+    }
 }
 
 @mixin lap {
-   @media (min-width: #{$lap-bp}) {
-       @content;
-   }
+    @media (min-width: #{$lap-bp}) {
+        @content;
+    }
 }
 
 @mixin desk {
-   @media (min-width: #{$desk-bp}) {
-       @content;
-   }
+    @media (min-width: #{$desk-bp}) {
+        @content;
+    }
 }
+
 
 
 /*==================================
@@ -49,8 +45,9 @@
 ==================================*/
 
 @include mob {
-        padding: 0 20px;
+    padding: 0 20px;
 }
+
 
 
 
@@ -58,22 +55,16 @@
 =            Wrapping red line            =
 =========================================*/
 
-@mixin test{
-  border: 1px solid red;
+@mixin test {
+    border: 1px solid red;
 }
+
 
 
 /*===================================
 =            Transitions            =
 ===================================*/
 
-@mixin trans{
-  transition: all 0.3s ease;
+@mixin trans {
+    transition: all 0.3s ease;
 }
-
-
-
-
-
-
-
