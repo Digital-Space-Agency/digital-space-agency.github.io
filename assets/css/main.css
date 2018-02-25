@@ -156,7 +156,7 @@
     opacity: 0; } }
 
 .contact-bottom {
-  background-color: #FF706F;
+  background-color: #20117A;
   background-image: -webkit-gradient(linear, left top, right top, from(#FF706F), to(#FDE0C2));
   background-image: linear-gradient(to right, #FF706F 0%, #FDE0C2 100%); }
 
