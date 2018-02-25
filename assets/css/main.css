@@ -328,8 +328,9 @@ h3 {
       font-size: 1.5em; } }
 
 .info {
-  font-family: 'Lato';
-  font-size: .5em; }
+    font-size: .5em;
+    font-family: "Lato";
+}
 
 a {
   text-decoration: none;
