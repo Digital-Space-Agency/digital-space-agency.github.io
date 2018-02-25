@@ -34,7 +34,7 @@
   position: relative;
   -webkit-animation: pulse 2000ms linear infinite;
           animation: pulse 2000ms linear infinite;
-  bottom: -8px; }
+  bottom: -16px; }
 
 .pulse:after,
 .pulse:before {
