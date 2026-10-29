@@ -1,0 +1,43 @@
+<!doctype html><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;overflow:hidden;position:relative;color:#f2f0ff;font-family:'Avenir Next','Avenir',system-ui,sans-serif;
+background:radial-gradient(800px 520px at 82% 40%,rgba(90,50,220,.55),transparent 62%),radial-gradient(600px 400px at 5% 100%,rgba(255,112,111,.22),transparent 60%),#07051a}
+.stars{position:absolute;inset:0}
+.logo{position:absolute;left:64px;top:56px;height:46px;filter:brightness(0) invert(1)}
+.copy{position:absolute;left:64px;top:170px;width:620px}
+.eyebrow{color:#ff706f;text-transform:uppercase;letter-spacing:.16em;font-size:20px;font-weight:700;margin-bottom:18px}
+h1{font-size:74px;line-height:1.04;font-weight:800;letter-spacing:-.02em}
+h1 em{font-style:normal;color:#ff706f}
+.sub{margin-top:26px;font-size:27px;line-height:1.35;color:#b9b6e0}
+.foot{position:absolute;left:64px;bottom:50px;font-size:24px;color:#f2f0ff;font-weight:700}
+.foot span{color:#ff706f}
+.sys{position:absolute;left:640px;top:0;width:560px;height:630px}
+.ring{position:absolute;border:2px solid rgba(185,168,255,.28);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-18deg)}
+.planet{position:absolute;left:50%;top:50%;width:230px;height:230px;margin:-115px 0 0 -115px;border-radius:50%;
+background:radial-gradient(circle at 32% 28%,#a98cff,#5a32d6 45%,#260780 78%,#120540);box-shadow:0 0 90px rgba(120,80,255,.6),inset -30px -30px 60px rgba(0,0,0,.45)}
+.planet:after{content:"";position:absolute;inset:-26px -70px;border:6px solid rgba(255,112,111,.55);border-radius:50%;transform:rotate(-18deg) scaleY(.28)}
+.app{position:absolute;width:92px;height:92px;border-radius:22px;box-shadow:0 10px 36px rgba(0,0,0,.55);border:2px solid rgba(255,255,255,.25)}
+.dot{position:absolute;border-radius:50%}
+</style>
+<canvas class="stars" id="s" width="1200" height="630"></canvas>
+<img class="logo" src="../assets/images/Logo.svg">
+<div class="sys">
+ <div class="ring" style="width:420px;height:200px;"></div>
+ <div class="ring" style="width:520px;height:330px;transform:translate(-50%,-50%) rotate(24deg)"></div>
+ <div class="planet"></div>
+ <img class="app" src="../assets/images/app-reelmatch.png" style="left:70px;top:150px">
+ <div class="app" style="left:395px;top:400px;background:url(../assets/images/app-claude.png) center/124% no-repeat;box-shadow:none"></div>
+ <div class="dot" style="left:455px;top:150px;width:46px;height:46px;background:radial-gradient(circle at 35% 30%,#ffb0a0,#ff706f 60%,#b53a50)"></div>
+ <div class="dot" style="left:120px;top:440px;width:30px;height:30px;background:radial-gradient(circle at 35% 30%,#9ff,#3aa 60%,#155)"></div>
+ <div class="dot" style="left:300px;top:92px;width:22px;height:22px;background:radial-gradient(circle at 35% 30%,#fff,#b9a8ff 60%,#6a4ad0)"></div>
+</div>
+<div class="copy">
+ <div class="eyebrow">Available for new projects</div>
+ <h1>Cross-platform apps, <em>AI agents</em> &amp; automations</h1>
+ <p class="sub">Flutter developer in Hamburg. Apps shipped for F1, Adidas, FIFA and Porsche.</p>
+</div>
+<div class="foot">digitalspaceagency.com <span>&middot;</span> David Miller</div>
+<script>
+const c=document.getElementById('s').getContext('2d');let x=7;const r=()=>(x=(x*16807)%2147483647)/2147483647;
+for(let i=0;i<190;i++){c.fillStyle=`rgba(255,255,255,${.25+r()*.7})`;c.beginPath();c.arc(r()*1200,r()*630,r()*1.5+.3,0,7);c.fill()}
+</script>
