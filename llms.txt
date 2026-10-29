@@ -1,0 +1,29 @@
+# Digital Space Agency
+
+> Independent Flutter and mobile development studio in Hamburg, Germany, run by David Miller (15 years in mobile, 7 shipping Flutter). Also builds AI agents and n8n automations. Available for contract work and open to full-time roles. Works remotely with UK and EU teams on CET.
+
+## Pages
+- [Home](https://www.digitalspaceagency.com/): Summary of what David does and selected work
+- [Services](https://www.digitalspaceagency.com/services/): Flutter and mobile development, AI agent and n8n automation, technical leadership, FAQ
+- [Work](https://www.digitalspaceagency.com/work/): Apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball, Standard Chartered, IBM for Mercedes-AMG PETRONAS F1, Accedo, BBC Good Food, plus ReelMatch, Hushdo, FlutterFix, AI agents and n8n automations
+- [FIFA](https://www.digitalspaceagency.com/work/fifa/): Mobile app development for FIFA.
+- [Porsche](https://www.digitalspaceagency.com/work/porsche/): Mobile app development for Porsche.
+- [Adidas Training by Runtastic](https://www.digitalspaceagency.com/work/adidas/): Adidas Training by Runtastic app for the Facebook Portal TV device.
+- [Canon Lifecake](https://www.digitalspaceagency.com/work/canon/): Lifecake, the family photo and video app owned by Canon.
+- [F1 TV](https://www.digitalspaceagency.com/work/f1-tv/): Mobile app for the Formula 1 streaming service.
+- [OneFootball](https://www.digitalspaceagency.com/work/onefootball/): Mobile app for one of the world's largest football media platforms.
+- [Shoal for Standard Chartered](https://www.digitalspaceagency.com/work/standard-chartered/): Shoal, a sustainable savings app with Standard Chartered.
+- [IBM for Mercedes-AMG PETRONAS F1](https://www.digitalspaceagency.com/work/ibm-mercedes-f1/): Android app for the Mercedes-AMG PETRONAS F1 Team, built through IBM to a tight deadline.
+- [Accedo NUVU](https://www.digitalspaceagency.com/work/accedo/): NUVU, a streaming app for Africa and Vodafone, built at Accedo in Stockholm.
+- [BBC Good Food](https://www.digitalspaceagency.com/work/bbc-good-food/): Recipe app project.
+- [ReelMatch](https://www.digitalspaceagency.com/work/reelmatch/): Swipe trailers with friends, match, and decide what to watch. Flutter, Firebase, TMDB, RevenueCat.
+- [Hushdo](https://www.digitalspaceagency.com/work/hushdo/): Voice notes transcribed and searched entirely on-device with local AI. Zero server uploads.
+- [FlutterFix](https://www.digitalspaceagency.com/work/flutterfix/): Open-source: long-press a bug in your Flutter app and Claude opens a PR with the fix.
+- [WBS AI Agents & Automations](https://www.digitalspaceagency.com/work/ai-automations/): n8n workflows and AI agents that run reliably: retries, validation, monitoring.
+- [About](https://www.digitalspaceagency.com/about/): Background, availability and how the agency works
+- [Contact](https://www.digitalspaceagency.com/contact/): info@dsa.team
+- [Full content](https://www.digitalspaceagency.com/llms-full.txt): all pages as plain text
+
+## Profiles
+- [LinkedIn](https://www.linkedin.com/in/mrdavidmiller)
+- [GitHub](https://github.com/Digital-Space-Agency)
