@@ -7,6 +7,7 @@ Launching…
 Senior Flutter & mobile developer, building apps and AI automations that ship.
 Digital Space Agency is the studio of David Miller: 15 years in mobile, 7 of them shipping Flutter, with apps delivered for FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered. Available for contract work and open to full-time roles.
 Email David See the work
+No mail app? Open in Gmail or write to info@dsa.team
 Drag to spin · click an orbiting appSwipe to spin · tap an app
 Sport & motorsportBrands & mediaMy products
 FIFA
@@ -144,6 +145,7 @@ Email David Miller about Flutter contract work, AI automation projects or a full
 Contact David Miller
 Tell me about the project or the role. I reply with availability and next steps.
 info@dsa.team Message on LinkedIn
+No mail app? Open in Gmail or write to info@dsa.team
 Digital Space Agency UG · Hamburg, Germany
 
 ## FIFA App Developer | Digital Space Agency
@@ -178,6 +180,7 @@ Category: Sport
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on FIFA?
 I worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament. Details of scope and stack are shared on request.
@@ -230,6 +233,7 @@ Category: Automotive
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Porsche?
 I worked on the Porsche Car Connect mobile app. Details of scope and stack are shared on request.
@@ -298,6 +302,7 @@ Category: Sportswear and fitness
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Adidas Training by Runtastic?
 I built the Adidas Training by Runtastic app for the Facebook Portal TV device. Details of scope and stack are shared on request.
@@ -353,6 +358,7 @@ Category: Photography
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Canon Lifecake?
 I worked on the Lifecake app for Canon. Details of scope and stack are shared on request.
@@ -425,6 +431,7 @@ Category: Sport and streaming
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on F1 TV?
 I worked on the F1 TV mobile app. Details of scope and stack are shared on request.
@@ -503,6 +510,7 @@ Category: Sport and media
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on OneFootball?
 I worked on the OneFootball mobile app. Details of scope and stack are shared on request.
@@ -572,6 +580,7 @@ Category: Fintech
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Shoal for Standard Chartered?
 I worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter. Details of scope and stack are shared on request.
@@ -626,6 +635,7 @@ Category: Motorsport
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on IBM for Mercedes-AMG PETRONAS F1?
 Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline. Details of scope and stack are shared on request.
@@ -694,6 +704,7 @@ Category: Streaming
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Accedo NUVU?
 I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016). Details of scope and stack are shared on request.
@@ -746,6 +757,7 @@ Category: Food media
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on BBC Good Food?
 I worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder. Details of scope and stack are shared on request.
@@ -831,6 +843,7 @@ Category: Entertainment
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: My own product
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on ReelMatch?
 I designed, built and run ReelMatch end to end, live on the App Store and Google Play. Details of scope and stack are shared on request.
@@ -903,6 +916,7 @@ Category: Productivity
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: My own product
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on Hushdo?
 I am designing and building Hushdo as a privacy-first product. Details of scope and stack are shared on request.
@@ -974,6 +988,7 @@ Category: Developer tools
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Side project
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on FlutterFix?
 I created and maintain FlutterFix. Details of scope and stack are shared on request.
@@ -1045,6 +1060,7 @@ Category: Automation
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: AI & automation
 Discuss a similar project All work
+No mail app? Open in Gmail or write to info@dsa.team
 FAQ
 What did David Miller do on WBS AI Agents & Automations?
 I design, build and monitor automations for my own studio and for clients. Details of scope and stack are shared on request.

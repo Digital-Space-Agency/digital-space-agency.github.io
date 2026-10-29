@@ -98,3 +98,4 @@ li{margin:4px 0}
 .stk{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .stk li{margin:0;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass);font-size:.85rem;color:var(--lav)}
 h3{margin:22px 0 6px}
+.alt{color:var(--muted);font-size:.88rem;margin:10px 0 0}
