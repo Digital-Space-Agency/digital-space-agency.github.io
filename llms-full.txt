@@ -107,7 +107,7 @@ IBM for Mercedes-AMG PETRONAS F1
 Android application for the Mercedes-AMG PETRONAS F1 Team, built to a tight deadline through IBM.
 Read more →Client work
 Accedo NUVU
-NUVU, a streaming app for Africa and Vodafone, built in an agile team at Accedo in Stockholm.
+Nuvu, Ericsson's video-on-demand service for Africa, built as architect and developer through Accedo in Stockholm.
 Read more →Client work
 BBC Good Food
 Recipe app project.
@@ -153,11 +153,25 @@ Home / Work / FIFA
 Client work · Sport
 FIFA mobile app development
 Mobile app development for FIFA.
+The 2014 FIFA World Cup in Brazil is the most-watched sporting event on earth, and the official app had to handle the traffic of a final.
 About the brand
 The official FIFA World Cup app was released in December 2013 and fully updated for the 2014 tournament in Brazil. It gave fans live coverage of all 64 games, news, photos and videos, real-time voting for Man of the Match, tournament stats, the FIFA/Coca-Cola World Ranking and scores from 197 leagues, plus a social feed for FIFA's Global Stadium. Source: Wikipedia. Source: FIFA press release, 12 June 2014.
 www.fifa.com
 My role
 I worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
+What I built
+Worked on the official FIFA World Cup app for Brazil 2014 and spent six weeks in Brazil during the tournament.
+The app covered live coverage of all 64 games, news, photos and video, real-time Man of the Match voting, stats, the FIFA/Coca-Cola World Ranking and scores from 197 leagues.
+Outcome
+Delivered for the 2014 World Cup in Brazil, with six weeks on site.
+Tech and keywords
+Android
+Mobile
+Live scores
+Push notifications
+Sport
+Real-time
+Multi-language
 Quick facts
 App: FIFA
 Category: Sport
@@ -193,11 +207,23 @@ Home / Work / Porsche
 Client work · Automotive
 Porsche mobile app development
 Mobile app development for Porsche.
+Unlocking a car from a phone is a small action with a large trust problem. Porsche Car Connect was one of the early connected-car apps, in the years when remote services were new.
 About the brand
 Porsche Car Connect is the connected-car service for Porsche vehicles, used through the Porsche mobile app. Its Remote, Safety and Security services let owners lock and unlock the car, control the climate, manage electric charging and see vehicle data such as mileage, tyre pressure and range. Source: Wikipedia. Source: Porsche Car Connect services.
 www.porsche.com
 My role
 I worked on the Porsche Car Connect mobile app.
+What I built
+Worked on the Porsche Car Connect mobile app (2013 to 2014) through my consultancy, RedMill.
+Outcome
+Shipped as part of Porsche's Car Connect services for the Porsche Connect platform.
+Tech and keywords
+Android
+Connected car
+Automotive
+Remote services
+Authentication
+IoT
 Quick facts
 App: Porsche
 Category: Automotive
@@ -233,11 +259,39 @@ Home / Work / Adidas Training by Runtastic
 Client work · Sportswear and fitness
 Adidas Training by Runtastic mobile app development
 Adidas Training by Runtastic app for the Facebook Portal TV device.
+A workout app that has to work from the sofa, across the room, on a TV-sized screen and with nothing but a remote or voice. Adidas Training by Runtastic on Facebook Portal TV was an exercise in designing for a device nobody holds.
 About the brand
 Runtastic is the fitness app brand from Adidas, now sold as the adidas Running and adidas Training apps. They track runs, walks, hikes and cycling and offer workouts, and logged activities earn adiClub points. Adidas is a German sportswear company headquartered in Herzogenaurach. Source: Wikipedia. Source: adidas Running on Google Play.
 www.runtastic.com
 My role
 I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
+What I built
+Ported the Adidas Training Android app to Android TV on Facebook Portal TV as the sole developer, in partnership with Adidas and Facebook.
+Built video playback and download, guided timed workouts and training plans personalised to the user's body data, with fitness tracking and rewards.
+Architecture and approach
+Android TV UI built for the ten-foot experience: focus handling, large type and remote or voice navigation.
+Video playback and offline download of workout content.
+A workout engine for guided, timed sessions that drives video, timers and tracking together.
+Sole-developer delivery: architecture, build pipeline and release owned end to end.
+Hard problems
+Designing for focus, not touch
+Android TV has no touch. Every screen needed predictable focus order, so a person can start a workout with a remote or voice from across a room.
+Reusing a phone app on a TV
+The mobile app's logic had to be adapted to a different input model, screen size and device, without forking the product.
+Outcome
+Delivered in four months, November 2020 to March 2021.
+Shipped on a new smart-display TV device for Adidas and Facebook.
+Tech and keywords
+Android TV
+Android
+Kotlin
+Facebook Portal
+Video playback
+Offline download
+Fitness tracking
+Rewards
+Voice interface
+Sole developer
 Quick facts
 App: Adidas Training by Runtastic
 Category: Sportswear and fitness
@@ -273,11 +327,26 @@ Home / Work / Canon Lifecake
 Client work · Photography
 Canon Lifecake mobile app development
 Lifecake, the family photo and video app owned by Canon.
+Parents take thousands of photos of their children and never look at them again. Lifecake turned the pile into a private, shareable timeline, and Canon bought it.
 About the brand
 Lifecake was a private family photo and video app that turned a child's photos into a timeline for sharing with family. It was started in London in 2012 and acquired by Canon Europe in 2015. The service closed on 30 June 2020, and its founders launched BackThen as a successor. Source: Wikipedia. Source: Lifecake timeline.
 global.canon
 My role
 I worked on the Lifecake app for Canon.
+What I built
+Android developer on Lifecake for Canon (2017 to 2018), the app's years under Canon Europe's ownership.
+Worked on the Android client for a private family photo and video timeline.
+Outcome
+1M+ Android installs.
+Service ran until 30 June 2020; its founders launched BackThen as a successor.
+Tech and keywords
+Android
+Photo sharing
+Video
+Media upload
+Image caching
+Privacy
+Notifications
 Quick facts
 App: Canon Lifecake
 Category: Photography
@@ -313,11 +382,43 @@ Home / Work / F1 TV
 Client work · Sport and streaming
 F1 TV mobile app development
 Mobile app for the Formula 1 streaming service.
+Race fans watch twenty on-board cameras while the timing screen keeps pace to the tenth of a second. Making a live video stream and a live data feed agree with each other on a phone was the interesting part of F1 TV.
 About the brand
 The F1 TV app is the official Formula 1 streaming app. With a subscription it streams every session live and on demand, with onboard cameras, live team radios, live timing and coverage of support series such as F2 and F3. It runs on mobile, the web and TV platforms. Source: Wikipedia. Source: F1 TV Pro.
 f1tv.formula1.com
 My role
 I worked on the F1 TV mobile app.
+What I built
+Led a five-person iOS and Android team delivering the mobile and video-on-demand features of the official F1 TV app, working with product, backend, video and mobile teams.
+Built live video for F1 TV Pro: live races with all 20 driver on-board cameras, dual-stream live video, timing synchronisation and content scheduling.
+Stayed hands-on in production code while leading mobile architecture discussions with client and technical stakeholders.
+Architecture and approach
+Native Android and iOS clients sharing one product backlog and one release train.
+Live and VOD video playback driven by a content schedule, so sessions appear and go live at the right moment.
+A timing layer that keeps lap-time data aligned with the video position, including when two streams run side by side.
+Code review, automated testing and CI/CD release processes across the product, backend, video and mobile teams.
+Hard problems
+Keeping data and video in step
+Live video and live timing data travel separately. The client had to keep them aligned so what the timing screen shows matches what the viewer is watching, including with two streams on screen.
+Many streams, one screen
+F1 TV Pro offers every driver's on-board camera. Dual-stream playback means two video pipelines on a phone, with the buffering, battery and bandwidth cost that brings.
+Outcome
+500,000+ Android installs in 2019.
+800+ hours of archive content available by 2020.
+Delivered as Mobile Lead, June 2019 to March 2020.
+Tech and keywords
+Android
+iOS
+Kotlin
+Mobile architecture
+Technical leadership
+Live streaming
+VOD
+Adaptive video
+Timing synchronisation
+Code review
+CI/CD
+Team lead
 Quick facts
 App: F1 TV
 Category: Sport and streaming
@@ -353,11 +454,49 @@ Home / Work / OneFootball
 Client work · Sport and media
 OneFootball mobile app development
 Mobile app for one of the world's largest football media platforms.
+OneFootball reports more than 100 million monthly active users. Putting a shop inside an app that size means every pixel has to match the design system and every product, price and promotion has to change without shipping a new release.
 About the brand
 The OneFootball app is a free football app for iOS and Android with live scores, news, notifications, statistics and video, including live streams and highlights from selected competitions. OneFootball is based in Berlin. Source: Wikipedia. Source: OneFootball on Google Play.
 onefootball.com
 My role
 I worked on the OneFootball mobile app.
+What I built
+Permanent role (Jan 2025 to Feb 2026): delivered OneFootball's Flutter e-commerce storefront, bringing merchandise purchasing into the consumer app.
+Contract role at Stadion (May to Nov 2024): built the Flutter commerce functionality behind the OneFootball Fan Shop, launched in Germany in October 2024 with 11teamsports Group to more than a million German users.
+Built supporting backend and internal tooling for sale items, promotions and time-limited campaigns.
+Architecture and approach
+Flutter Add-to-App: Flutter modules embedded in established native iOS and Android apps, so new commerce screens shipped without rewriting the existing app.
+A private, reusable Flutter package that supports merchandise from multiple suppliers through one common commerce implementation.
+Melos-based monorepo with trunk-based development and modular package boundaries.
+GraphQL for product and order data, Stripe for in-app payments and order processing.
+Remote configuration of products, stock and promotions, so merchandising changes need no app release.
+Production UI built against OneFootball's design system across two codebases with different architectures and release processes.
+Hard problems
+Two codebases, two release processes
+The shop spanned the Stadion and OneFootball codebases. The answer was a versioned private package with a clear public API, so each host app could adopt releases on its own schedule.
+Flutter inside a native app
+Add-to-App means sharing navigation, authentication state and lifecycle between native hosts and Flutter engines while keeping start-up and memory in check.
+Holding quality while moving fast
+Automated test coverage was held at 98%, with a GitHub check that rejects any push that lowers it.
+Outcome
+Fan Shop launched in Germany in October 2024 to 1M+ users.
+Storefront delivered into a platform reporting 100M+ monthly active users (2022).
+98% automated test coverage enforced in CI.
+Tech and keywords
+Flutter
+Dart
+Add-to-App
+Melos
+Monorepo
+Trunk-based development
+GraphQL
+Stripe
+E-commerce
+Private packages
+Design system
+Remote config
+CI/CD
+Test coverage
 Quick facts
 App: OneFootball
 Category: Sport and media
@@ -393,11 +532,40 @@ Home / Work / Shoal for Standard Chartered
 Client work · Fintech
 Shoal for Standard Chartered mobile app development
 Shoal, a sustainable savings app built with Standard Chartered: savings pots backed by a green and social project portfolio.
+A savings app has to feel simple while handling account opening, identity and money movement. Shoal added a second challenge: a short engagement and a release date that did not move.
 About the brand
 Shoal is a mobile savings app where people earn interest through Savings Pots while their money is referenced against a global portfolio of green and social projects. The sustainable asset portfolio is managed by Standard Chartered, and the app shows the CO2e avoided and clean water generated by each saver's pots. Source: Wikipedia. Source: Shoal.
 www.shoalapp.com/
 My role
 I worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
+What I built
+Delivered Shoal for Standard Chartered Ventures, through Hi Mum! Said Dad, as the solo Flutter developer, taking the app over the line to release in a short engagement (January 2022).
+Built onboarding, account setup and deposit features, with AWS Cognito authentication.
+Architecture and approach
+Flutter and Dart cross-platform app for iOS and Android.
+GraphQL for account and banking operations.
+AWS Cognito for sign-up, sign-in and session handling.
+Automated testing and CI/CD from the start, so release candidates could be cut with confidence.
+Hard problems
+Regulated flows with no room for guesswork
+Onboarding and deposits touch real money, so each step needed explicit error and empty states, tested before release rather than discovered after.
+Getting to release quickly
+As the only Flutter developer, the priority was a shippable vertical slice: authentication, account setup and deposits first, polish second.
+Outcome
+Shoal released: a savings app where Savings Pots are referenced against green and social projects.
+Delivered as a solo Flutter developer in a short engagement.
+Tech and keywords
+Flutter
+Dart
+GraphQL
+AWS Cognito
+Fintech
+Onboarding
+Payments
+Automated testing
+CI/CD
+Release management
+Solo developer
 Quick facts
 App: Shoal for Standard Chartered
 Category: Fintech
@@ -433,11 +601,25 @@ Home / Work / IBM for Mercedes-AMG PETRONAS F1
 Client work · Motorsport
 IBM for Mercedes-AMG PETRONAS F1 mobile app development
 Android application for the Mercedes-AMG PETRONAS F1 Team, built to a tight deadline through IBM.
+A Formula One team does not wait for a fan app. Building the official Mercedes-AMG PETRONAS F1 app through IBM meant a fixed deadline and a brand that is judged to the millisecond.
 About the brand
 The Mercedes-AMG PETRONAS F1 Team app is the team's official mobile app for fans, covering news, analysis, photos and video from inside the Formula One team. The team is based in Brackley, England, and won eight consecutive Constructors' Championships from 2014 to 2021. Source: Wikipedia.
 www.mercedesamgf1.com
 My role
 Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
+What I built
+Android developer through IBM on the official Mercedes-AMG PETRONAS F1 Team fan app (2017).
+Delivered an Android application to a tight deadline.
+Outcome
+Android app delivered for the 2017 season.
+Tech and keywords
+Android
+Motorsport
+Formula 1
+Content feed
+Media
+IBM
+Tight deadlines
 Quick facts
 App: IBM for Mercedes-AMG PETRONAS F1
 Category: Motorsport
@@ -468,16 +650,44 @@ WBS AI Agents & Automations
 
 ## Accedo NUVU App Developer | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/accedo/
-NUVU, a streaming app for Africa and Vodafone, built in an agile team at Accedo in Stockholm. NUVU was a streaming app for Africa and Vodafone, built through Accedo, a global provider of streaming software and services founded in Stockholm..
+Nuvu, Ericsson's video-on-demand service for Africa, built as architect and developer through Accedo in Stockholm. Nuvu was Ericsson's first end-to-end subscription video-on-demand service, announced in November 2015 for Africa and marketed with mobile operators, starting with Airtel Nigeria.
 Home / Work / Accedo NUVU
 Client work · Streaming
 Accedo NUVU mobile app development
-NUVU, a streaming app for Africa and Vodafone, built in an agile team at Accedo in Stockholm.
+Nuvu, Ericsson's video-on-demand service for Africa, built as architect and developer through Accedo in Stockholm.
+In 2015 most of sub-Saharan Africa could not stream video reliably or cheaply. Nuvu, Ericsson's subscription video service, was designed around that: download overnight when mobile data is cheap, watch offline later.
 About the brand
-NUVU was a streaming app for Africa and Vodafone, built through Accedo, a global provider of streaming software and services founded in Stockholm. Source: About Accedo.
+Nuvu was Ericsson's first end-to-end subscription video-on-demand service, announced in November 2015 for Africa and marketed with mobile operators, starting with Airtel Nigeria. Subscribers got around 3,000 local and international titles for a small monthly fee, downloaded at off-peak times and watched offline. Accedo is a global provider of streaming software and services founded in Stockholm. Source: About Accedo. Source: Ericsson launches NuVu, Nov 2015. Source: Nuvu brand and UI design.
 www.accedo.tv
 My role
-I built NUVU as a contract developer in a fully agile team at Accedo's Stockholm office.
+I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
+What I built
+Architect and developer on Nuvu by Ericsson, working for Accedo (2015 to 2016), the agency in a fully agile team at Accedo's Stockholm office.
+Nuvu launched as an Android app with a personalised interface, bookmarking and recommendations, and was marketed with operators, starting with Airtel Nigeria.
+Architecture and approach
+Nuvu's core design: content downloads are scheduled into off-peak network windows on an Android client.
+Offline playback: downloaded titles stay watchable for up to 30 days.
+Integration with the operator's customer relationship management and payment systems, so billing goes through the carrier.
+A content catalogue of around 3,000 local and international films and series for a small monthly fee.
+Hard problems
+Making expensive data cheap
+The service downloads content at off-peak times at no additional data cost, and also supports Wi-Fi. This only works if downloads survive unreliable cellular networks.
+Operator billing
+Subscriptions had to plug into the carrier's CRM and payment stack rather than a card form, which shapes sign-up, entitlement and renewal.
+Outcome
+Public launch announced by Ericsson in November 2015, with Airtel Nigeria, a network of more than 30 million subscribers.
+Brand identity by Red Bee, an Ericsson company; bespoke UI and design system by PS Fennell.
+Tech and keywords
+Android
+Java
+Software architecture
+Video on demand
+Offline playback
+Download manager
+Operator billing
+Agile
+OTT
+Emerging markets
 Quick facts
 App: Accedo NUVU
 Category: Streaming
@@ -486,9 +696,9 @@ Type: Client work
 Discuss a similar project All work
 FAQ
 What did David Miller do on Accedo NUVU?
-I built NUVU as a contract developer in a fully agile team at Accedo's Stockholm office. Details of scope and stack are shared on request.
+I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016). Details of scope and stack are shared on request.
 Who developed the Accedo NUVU app?
-Accedo NUVU work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I built NUVU as a contract developer in a fully agile team at Accedo's Stockholm office.
+Accedo NUVU work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
 Can David Miller build a similar app?
 Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -513,11 +723,23 @@ Home / Work / BBC Good Food
 Client work · Food media
 BBC Good Food mobile app development
 Recipe app project.
+Recipe apps live in the kitchen: wet hands, a propped-up phone and a timer going. BBC Good Food's app is judged by whether it stays out of your way while you cook.
 About the brand
 The Good Food: Recipe Finder app (formerly the BBC Good Food app) is an ad-free cooking app with thousands of kitchen-tested recipes, exclusive meal plans, a cook mode and how-to videos. It is separate from the Good Food Magazine app, which is the digital edition of the print magazine. Source: Wikipedia. Source: Good Food app FAQ.
 www.bbcgoodfood.com
 My role
 I worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
+What I built
+Worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
+Outcome
+Part of the Good Food app family, ad-free and kitchen-tested.
+Tech and keywords
+Mobile
+Recipe app
+Search
+Subscriptions
+Media
+Content app
 Quick facts
 App: BBC Good Food
 Category: Food media
@@ -553,26 +775,61 @@ Home / Work / ReelMatch
 My own product · Entertainment
 ReelMatch
 Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play.
+Two people on a sofa, forty minutes of scrolling, and still no film. ReelMatch turns that into a swipe: each person likes what they like, and the app finds what they both want to watch.
 What it is
 ReelMatch is my own app for deciding what to watch together. You swipe through recommendations in a Tinder-style stack, watch trailers, and match with friends on shared interests.
 My role
 I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
+What I built
+Designed, built and run end to end: product, UX, architecture, backend, builds and release on the App Store and Google Play.
+A Tinder-style swipe stack of recommendations with trailers, a friends list, shared likes and a match view that shows what two people both want to see.
+A free tier and a premium tier with in-app purchases, invitations with referral rewards, and push notifications.
+Architecture and approach
+Layered architecture: screens and widgets, then providers (ChangeNotifier), then repositories, then services and APIs (Firebase, TMDB, RevenueCat).
+Provider for state management and GetIt for dependency injection, with everything registered in one locator.
+GoRouter for declarative navigation, with an analytics observer on every route.
+Firebase Auth and Firestore for users, likes, friends and recommendations; Remote Config for feature flags; Cloud Messaging for notifications.
+Crashlytics and Performance Monitoring in production, plus a custom analytics event schema.
+A subscription layer on RevenueCat, with plan limits enforced by a SubscriptionGuard widget and swipe-limit service.
+Unit and widget tests mirrored against the lib/ structure with Mockito.
+Hard problems
+Recommending to users with no history
+Cold-start: before a user has ten likes the engine blends popular and genre-based titles. After that it mixes TMDB recommendations seeded from their likes, filtered by genre, language and streaming platform, retries on API failure and de-duplicates across sources.
+A production crash in a dependency
+Crashlytics showed a fatal AnimationController double-dispose when a swipe was cancelled. I traced it to the swiper package, forked it into the repo with an _isDisposed guard and registered the fix as a dependency override.
+Image memory on older phones
+A swipe stack is image-heavy. The image cache is capped (200 images, 50 MB), image errors are suppressed and logged separately, and loading goes through a single cached network image widget.
+Free vs premium without leaks
+Limits are enforced centrally rather than per screen, so a new feature cannot accidentally bypass the paywall.
+Outcome
+14,000+ downloads across the App Store and Google Play.
+Live on both stores with subscriptions, invitations and review-prompt logic.
+Continuous delivery through GitHub Actions and Xcode Cloud.
+Tech and keywords
+Flutter
+Dart
+Provider
+GetIt
+Dependency injection
+GoRouter
+Firebase Auth
+Firestore
+Remote Config
+Crashlytics
+Cloud Messaging
+TMDB API
+RevenueCat
+In-app purchases
+Recommendation engine
+Cold start
+Mockito
+GitHub Actions
+Xcode Cloud
 Quick facts
 App: ReelMatch
 Category: Entertainment
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: My own product
-Highlights
-A recommendation engine that handles cold-start users, filters by genre, language and streaming platform, retries on API failure and de-duplicates across sources.
-Friend matching on shared likes, so two people can find something to watch together.
-A patched swipe-card package to fix a production animation-controller crash found through Crashlytics.
-Tech and approach
-Flutter and Dart
-Provider state management and GetIt dependency injection
-GoRouter navigation
-Firebase (Auth, Firestore, Crashlytics, Analytics, Remote Config)
-TMDB for movie and series data
-RevenueCat subscriptions (free and premium tiers)
 Discuss a similar project All work
 FAQ
 What did David Miller do on ReelMatch?
@@ -603,19 +860,48 @@ Home / Work / Hushdo
 My own product · Productivity
 Hushdo
 Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com.
+Voice notes are the most private data on your phone, and almost every voice app sends them to a server. Hushdo does the opposite: speech recognition and the language model both run on the device.
 What it is
 Hushdo is my own voice-notes app. Notes are transcribed, structured and searched entirely on the device using local AI models, with zero server uploads. An early-access waitlist is open at hushdo.com.
 hushdo.com
 My role
 I am designing and building Hushdo as a privacy-first product.
+What I built
+Designing and building Hushdo end to end: a private, on-device voice-to-tasks app, iOS first and Android second.
+Whisper speech-to-text and small quantised language models run locally, so recordings and text never leave the phone.
+Architecture and approach
+Flutter app generated with Very Good CLI: flavors (development, staging, production), strict lints, localisation and a test setup from day one.
+On-device speech recognition with Whisper through sherpa_onnx, and local GGUF language models through llamadart.
+Models are downloaded at runtime, never bundled, through a signed manifest in a separate repository, so the app stays small and updates are verified.
+A benchmark harness with a pass bar: only profile and release numbers on real phones count for latency, memory and quality.
+iOS 16.4+ and macOS 14+ targets.
+Hard problems
+Fitting a language model on a phone
+Choosing a model size and quantisation that is accurate enough to extract tasks from speech and still fast, cool and memory-friendly on real devices. A throwaway spike screen measures this before any feature is built.
+Trustworthy model delivery
+Models are large and downloaded at runtime. A signed manifest means the app only installs files it can verify.
+Outcome
+Early-access waitlist open at hushdo.com.
+Website and model hosting in separate repositories.
+Tech and keywords
+Flutter
+Dart
+On-device AI
+Whisper
+sherpa_onnx
+llamadart
+GGUF
+Local LLM
+Speech to text
+Privacy by design
+Very Good CLI
+Flavors
+Localisation
 Quick facts
 App: Hushdo
 Category: Productivity
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: My own product
-Tech and approach
-On-device speech-to-text and local language models
-No server uploads of user audio or text
 Discuss a similar project All work
 FAQ
 What did David Miller do on Hushdo?
@@ -646,23 +932,47 @@ Home / Work / FlutterFix
 Side project · Developer tools
 FlutterFix
 Open-source tool that lets testers long-press a bug in a Flutter app, then sends the report to Claude, which opens a pull request with the fix. MIT licensed.
+You spot a bug on your phone, nowhere near a computer. Writing it up takes longer than fixing it, so you forget. FlutterFix removes the write-up and the computer: long-press the broken thing and Claude opens a pull request.
 What it is
 FlutterFix is an open-source, MIT-licensed tool for Flutter teams. A tester long-presses a bug in a running Flutter app, the report goes to Claude, and Claude opens a pull request with the fix.
 github.com/digital-space-agency-com/flutterfix
 My role
 I created and maintain FlutterFix.
+What I built
+Created and maintain FlutterFix, an open-source MIT-licensed Dart package, widget, receiver and server for Flutter teams.
+A tester long-presses the element, types one sentence, and the report is sent with the element, its text, the widget path that built it, a screenshot with the element outlined and a replay of the seconds before.
+Architecture and approach
+A Flutter widget that resolves the pressed element, outlines it and captures a screenshot and a replay of the preceding seconds.
+Two sinks behind one interface: LocalReceiverSink for use at the desk, straight into a running Claude Code session; HttpSink plus OutboxSink for use anywhere.
+The cloud route: a Firebase function checks sign-in and a tester list, applies a daily cap and creates a GitHub issue with the screenshot; a GitHub Action then runs Claude, which opens a pull request.
+Nothing is merged automatically; your usual checks run on the pull request and you review it in the GitHub mobile app.
+Hard problems
+Context that makes a fix possible
+A screenshot alone is not enough. Attaching the element, its text and the widget chain gives Claude enough context to find the code.
+Flaky and slow screens
+Replay captures the seconds before the press, so empty lists, slow loads and animation glitches are visible in the report.
+Safe by default
+Reports are limited to signed-in testers, capped per day and never merge themselves.
+Outcome
+Open source on GitHub under the MIT licence.
+Works at your Mac in about five minutes, or away from it in about an hour of one-off setup.
+Tech and keywords
+Flutter
+Dart
+Developer tools
+Open source
+Claude
+AI pull requests
+GitHub Actions
+Firebase Functions
+Bug reporting
+Widget inspector
+Mobile-first workflow
 Quick facts
 App: FlutterFix
 Category: Developer tools
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: Side project
-Highlights
-Report a bug from inside the app instead of writing a ticket.
-Turns a long-press into a reviewable pull request.
-Tech and approach
-Flutter and Dart
-Claude for automated fix proposals
-GitHub pull requests
 Discuss a similar project All work
 FAQ
 What did David Miller do on FlutterFix?
@@ -693,24 +1003,47 @@ Home / Work / WBS AI Agents & Automations
 AI & automation · Automation
 WBS AI Agents & Automations
 n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring.
+Most small teams lose hours to work that is predictable but not simple: moving data between tools, checking it, and chasing exceptions. I build agents and workflows that do it, with the same release discipline as a shipped mobile app.
 What it is
 I build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme. The same agents and workflows run Digital Space Agency itself.
 My role
 I design, build and monitor automations for my own studio and for clients.
+What I built
+n8n workflows and Python-based AI agents for back-office and engineering work, including the agents that run Digital Space Agency itself.
+Completed WBS Coding School's AI Agents and Automation programme (July to October 2026): two applied business-workflow prototypes and a final MVP combining n8n, Python, APIs and AI agents to solve a real business problem end to end.
+Architecture and approach
+n8n for orchestration: triggers, branching, retries and error workflows.
+Model Context Protocol (MCP) to give agents controlled access to external tools and data.
+Multi-agent collaboration where a planner hands work to specialised agents.
+Schema-validated tool calls, retries, idempotent steps and alerts, so a failure is visible and recoverable.
+Testing, review and production-readiness applied to workflows, the same as to mobile releases.
+Hard problems
+Making agents dependable
+Models are not deterministic. Reliability comes from narrow tools, validated inputs and outputs, retries and a human in the loop for anything irreversible.
+Observability
+A silent automation is a risk. Every workflow reports success and failure somewhere a person will see it.
+Outcome
+Working MVP delivered as the final project of the programme.
+Used in my own studio daily.
+Tech and keywords
+n8n
+Python
+AI agents
+Agentic workflows
+MCP
+Multi-agent
+Prompt engineering
+LLM integration
+Claude
+GPT
+API integration
+Responsible AI
+Workflow automation
 Quick facts
 App: WBS AI Agents & Automations
 Category: Automation
 Built by: David Miller, Digital Space Agency, Hamburg
 Type: AI & automation
-Highlights
-Back-office processes that would otherwise be manual.
-Content and data pipelines.
-Internal tools that connect existing systems.
-Tech and approach
-n8n workflows
-Model Context Protocol (MCP) agents
-Schema-validated tool calls, retries and error handling
-Monitoring and alerts
 Discuss a similar project All work
 FAQ
 What did David Miller do on WBS AI Agents & Automations?

@@ -14,7 +14,7 @@
 - [OneFootball](https://www.digitalspaceagency.com/work/onefootball/): Mobile app for one of the world's largest football media platforms.
 - [Shoal for Standard Chartered](https://www.digitalspaceagency.com/work/standard-chartered/): Shoal, a sustainable savings app with Standard Chartered.
 - [IBM for Mercedes-AMG PETRONAS F1](https://www.digitalspaceagency.com/work/ibm-mercedes-f1/): Android app for the Mercedes-AMG PETRONAS F1 Team, built through IBM to a tight deadline.
-- [Accedo NUVU](https://www.digitalspaceagency.com/work/accedo/): NUVU, a streaming app for Africa and Vodafone, built at Accedo in Stockholm.
+- [Accedo NUVU](https://www.digitalspaceagency.com/work/accedo/): Nuvu, Ericsson's video-on-demand service for Africa, built through Accedo in Stockholm.
 - [BBC Good Food](https://www.digitalspaceagency.com/work/bbc-good-food/): Recipe app project.
 - [ReelMatch](https://www.digitalspaceagency.com/work/reelmatch/): Swipe trailers with friends, match, and decide what to watch. Flutter, Firebase, TMDB, RevenueCat.
 - [Hushdo](https://www.digitalspaceagency.com/work/hushdo/): Voice notes transcribed and searched entirely on-device with local AI. Zero server uploads.

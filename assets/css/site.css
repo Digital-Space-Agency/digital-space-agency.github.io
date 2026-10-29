@@ -94,3 +94,7 @@ li{margin:4px 0}
 .gtab:hover,.gtab:focus-visible{border-color:var(--sec);outline:none}
 .gtab[aria-pressed=true]{background:var(--sec);border-color:var(--sec);color:#12092f;font-weight:700}
 .chips li[hidden]{display:none}
+.hook{font-size:1.25rem;line-height:1.5;color:var(--text);border-left:3px solid var(--sec);padding-left:16px;margin:0 0 8px}
+.stk{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.stk li{margin:0;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass);font-size:.85rem;color:var(--lav)}
+h3{margin:22px 0 6px}
