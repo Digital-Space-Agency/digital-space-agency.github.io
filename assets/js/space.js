@@ -391,6 +391,7 @@ function boot() {
       if (!runEl) { runEl = document.createElement('div'); runEl.className = 'space-run'; runEl.setAttribute('aria-hidden', 'true'); }
       if (!wrapEl) { wrapEl = document.createElement('div'); wrapEl.className = 'space-wrap'; }
       host.before(wrapEl); wrapEl.append(host, runEl);
+      if (!host.querySelector('.mhint')) { const h = document.createElement('p'); h.className = 'mhint'; h.textContent = 'Scroll to fly through the apps \u2193'; host.appendChild(h); }
       syncMobile();
     } else {
       if (wrapEl && wrapEl.parentNode) { wrapEl.before(host); wrapEl.remove(); }

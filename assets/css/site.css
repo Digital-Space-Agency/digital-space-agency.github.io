@@ -101,7 +101,7 @@ h3{margin:22px 0 6px}
 .alt{color:var(--muted);font-size:.88rem;margin:10px 0 0}
 
 /* ---------- phones: compact sticky header + scroll-driven planet line ---------- */
-.space-run,.mcap{display:none}
+.space-run,.mcap,.mhint{display:none}
 @media (max-width:700px){
  .top{position:sticky;inset:auto;top:0;background:rgba(7,5,26,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
  .top .wrap{min-height:0;padding-top:10px;padding-bottom:8px;row-gap:4px}
@@ -116,6 +116,8 @@ h3{margin:22px 0 6px}
  .space-run{display:block;height:260svh}
  .orbit-nav{position:relative;z-index:2}
  .mcap{display:block;position:absolute;left:16px;right:16px;top:47%;z-index:3;padding:14px 16px;border-radius:16px;background:rgba(14,10,43,.88);border:1px solid var(--line);backdrop-filter:blur(10px)}
+ .mhint{display:block;position:absolute;left:0;right:0;top:78px;z-index:3;margin:0;text-align:center;font-size:.8rem;letter-spacing:.06em;color:var(--muted);pointer-events:none;text-shadow:0 1px 12px var(--bg)}
+ .hint-m{display:none}
  .mcap[hidden]{display:none}
  .mcap p{margin:0}
  .mcap .t{color:var(--sec);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem}
