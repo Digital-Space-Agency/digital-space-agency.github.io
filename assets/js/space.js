@@ -292,7 +292,7 @@ function boot() {
     { tilt: [0.7, -0.5], r: [3.5, 3.8, 4.1] },
   ];
   const moons = [];
-  let mobile = false, runEl = null, lineW = 1, prog = 0, lineOrder = [];
+  let mobile = false, runEl = null, wrapEl = null, lineW = 1, prog = 0, lineOrder = [];
   const clickable = [];
   // three "solar systems" side by side; the camera flies between them
   const SPACE = 15, SYS_Y = [0, -0.8, 0.8], SYS_Z = [0, -3, -1.5];
@@ -388,9 +388,12 @@ function boot() {
     lineRoot.visible = on;
     sysNames.forEach((n) => { sysRoot[n].visible = !on; });
     if (on) {
-      if (!runEl) { runEl = document.createElement('div'); runEl.className = 'space-run'; runEl.setAttribute('aria-hidden', 'true'); host.after(runEl); }
+      if (!runEl) { runEl = document.createElement('div'); runEl.className = 'space-run'; runEl.setAttribute('aria-hidden', 'true'); }
+      if (!wrapEl) { wrapEl = document.createElement('div'); wrapEl.className = 'space-wrap'; }
+      host.before(wrapEl); wrapEl.append(host, runEl);
       syncMobile();
     } else {
+      if (wrapEl && wrapEl.parentNode) { wrapEl.before(host); wrapEl.remove(); }
       moons.forEach((m) => { if (m.home) m.home.add(m.obj); m.k = 1; });
       flyX = 0; flyTo = sysIdx(activeGroup) * SPACE;
     }
