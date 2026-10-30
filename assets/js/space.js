@@ -372,6 +372,7 @@ function boot() {
   document.querySelectorAll('.gtab').forEach((b) => b.addEventListener('click', () => {
     activeGroup = b.dataset.group; selected = null; hovered = null; applyGroup(); flyTo = sysIdx(activeGroup) * SPACE;
     if (!panel.hidden) closePanel();
+    if (mobile) toMoon(lineOrder.find((m) => m.s.group === activeGroup));
   }));
 
   // ---- phone layout: one horizontal line of planets, driven by page scroll ----
@@ -392,39 +393,31 @@ function boot() {
       if (!wrapEl) { wrapEl = document.createElement('div'); wrapEl.className = 'space-wrap'; }
       host.before(wrapEl); wrapEl.append(host, runEl);
       if (!host.querySelector('.mhint')) { const h = document.createElement('p'); h.className = 'mhint'; h.textContent = 'Scroll to fly through the apps \u2193'; host.appendChild(h); }
+      if (!dockEl) { dockEl = document.createElement('div'); dockEl.className = 'mdock'; host.appendChild(dockEl); if (capEl) dockEl.prepend(capEl); }
+      navEl = navEl || document.querySelector('.orbit-nav');
+      if (navEl && navEl.parentNode !== dockEl) { navMark = navMark || document.createComment('orbit-nav'); navEl.before(navMark); dockEl.appendChild(navEl); }
       syncMobile();
     } else {
+      if (navEl && navMark && navMark.parentNode && navEl.parentNode === dockEl) navMark.after(navEl);
       if (wrapEl && wrapEl.parentNode) { wrapEl.before(host); wrapEl.remove(); }
       moons.forEach((m) => { if (m.home) m.home.add(m.obj); m.k = 1; });
       flyX = 0; flyTo = sysIdx(activeGroup) * SPACE;
     }
     applyGroup();
   }
-  let capEl = null, capFor = null, stripEl = null;
-  function buildStrip() {
-    stripEl = document.createElement('div'); stripEl.className = 'mstrip'; stripEl.setAttribute('role', 'tablist');
-    lineOrder.forEach((m, i) => {
-      const b = document.createElement('button'); b.type = 'button'; b.textContent = m.s.it.name; b.dataset.i = i;
-      b.addEventListener('click', () => {
-        const stick = parseFloat(getComputedStyle(host).top) || 0;
-        const f = lineOrder.length > 1 ? i / (lineOrder.length - 1) : 0;
-        const top = runEl.getBoundingClientRect().top + window.scrollY;
-        window.scrollTo({ top: top - (stick + host.clientHeight) + f * runEl.offsetHeight + 1, behavior: 'smooth' });
-      });
-      stripEl.appendChild(b);
-    });
-    host.appendChild(stripEl);
+  let capEl = null, capFor = null, dockEl = null, navEl = null, navMark = null;
+  function toMoon(m) {
+    const i = lineOrder.findIndex((x) => x === m || x.hit === m); if (i < 0) return;
+    const stick = parseFloat(getComputedStyle(host).top) || 0;
+    const f = lineOrder.length > 1 ? i / (lineOrder.length - 1) : 0;
+    const top = runEl.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({ top: top - (stick + host.clientHeight) + f * runEl.offsetHeight + 1, behavior: 'smooth' });
   }
   function caption(m) {
-    if (!capEl) { capEl = document.createElement('div'); capEl.className = 'mcap'; host.appendChild(capEl); }
-    if (!stripEl && lineOrder.length) buildStrip();
+    if (!capEl) { capEl = document.createElement('div'); capEl.className = 'mcap'; (dockEl || host).prepend(capEl); }
     if (m === capFor) return; capFor = m;
-    if (stripEl && m) {
-      const k = lineOrder.indexOf(m);
-      [...stripEl.children].forEach((b, i) => b.classList.toggle('on', i === k));
-      const b = stripEl.children[k];
-      if (b) stripEl.scrollTo({ left: b.offsetLeft - (stripEl.clientWidth - b.offsetWidth) / 2, behavior: 'smooth' });
-    }
+    items.forEach((it) => it.li.classList.toggle('on', !!m && it.moon === m.hit));
+    if (m && m.s.group !== activeGroup && sysNames.includes(m.s.group)) { activeGroup = m.s.group; applyGroup(); }
     if (!m) { capEl.hidden = true; return; }
     const it = m.s.it; capEl.hidden = false; capEl.textContent = '';
     const mk = (tag, cls, txt) => { const e = document.createElement(tag); e.className = cls; e.textContent = txt; capEl.appendChild(e); return e; };
@@ -537,7 +530,7 @@ function boot() {
   // chips (real links) drive the same scene
   items.forEach((it) => {
     const a = it.li.querySelector('a');
-    a.addEventListener('click', (e) => { e.preventDefault(); openPanel(it); });
+    a.addEventListener('click', (e) => { e.preventDefault(); if (mobile) toMoon(it.moon); else openPanel(it); });
     a.addEventListener('pointerenter', () => { setHover(it.moon || null); tip.hidden = true; });
     a.addEventListener('pointerleave', () => setHover(null));
     a.addEventListener('focus', () => setHover(it.moon || null));
