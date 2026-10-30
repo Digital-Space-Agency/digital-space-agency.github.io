@@ -400,10 +400,31 @@ function boot() {
     }
     applyGroup();
   }
-  let capEl = null, capFor = null;
+  let capEl = null, capFor = null, stripEl = null;
+  function buildStrip() {
+    stripEl = document.createElement('div'); stripEl.className = 'mstrip'; stripEl.setAttribute('role', 'tablist');
+    lineOrder.forEach((m, i) => {
+      const b = document.createElement('button'); b.type = 'button'; b.textContent = m.s.it.name; b.dataset.i = i;
+      b.addEventListener('click', () => {
+        const stick = parseFloat(getComputedStyle(host).top) || 0;
+        const f = lineOrder.length > 1 ? i / (lineOrder.length - 1) : 0;
+        const top = runEl.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({ top: top - (stick + host.clientHeight) + f * runEl.offsetHeight + 1, behavior: 'smooth' });
+      });
+      stripEl.appendChild(b);
+    });
+    host.appendChild(stripEl);
+  }
   function caption(m) {
     if (!capEl) { capEl = document.createElement('div'); capEl.className = 'mcap'; host.appendChild(capEl); }
+    if (!stripEl && lineOrder.length) buildStrip();
     if (m === capFor) return; capFor = m;
+    if (stripEl && m) {
+      const k = lineOrder.indexOf(m);
+      [...stripEl.children].forEach((b, i) => b.classList.toggle('on', i === k));
+      const b = stripEl.children[k];
+      if (b) stripEl.scrollTo({ left: b.offsetLeft - (stripEl.clientWidth - b.offsetWidth) / 2, behavior: 'smooth' });
+    }
     if (!m) { capEl.hidden = true; return; }
     const it = m.s.it; capEl.hidden = false; capEl.textContent = '';
     const mk = (tag, cls, txt) => { const e = document.createElement(tag); e.className = cls; e.textContent = txt; capEl.appendChild(e); return e; };
