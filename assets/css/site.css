@@ -70,7 +70,7 @@ li{margin:4px 0}
 @media (max-width:900px){
  .top{background:rgba(7,5,26,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
  .stage{min-height:0;justify-content:flex-start}
- .stage-copy{order:1;padding-top:84px}
+ .stage .stage-copy{order:1;padding-top:96px}
  .stage-copy h1{font-size:clamp(1.9rem,8vw,2.6rem)}
  .stage-copy .lead{font-size:1rem}
  .space{order:2;position:relative;inset:auto;height:58svh;min-height:340px;margin-top:8px}
