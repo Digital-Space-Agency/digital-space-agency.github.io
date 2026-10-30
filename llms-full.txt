@@ -8,7 +8,7 @@ Senior Flutter & mobile developer, building apps and AI automations that ship.
 Digital Space Agency is the studio of David Miller: 15 years in mobile, 7 of them shipping Flutter, with apps delivered for FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered. Available for contract work and open to full-time roles.
 Email David See the work
 No mail app? Open in Gmail or write to info@dsa.team
-Drag to spin · click an orbiting appSwipe to spin · tap an app
+Drag to spin · click an orbiting appScroll to fly through the apps · tap one to open
 Sport & motorsportBrands & mediaMy products
 FIFA
 Porsche
