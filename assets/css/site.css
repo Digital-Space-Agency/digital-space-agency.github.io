@@ -132,3 +132,6 @@ h3{margin:22px 0 6px}
  .mcap .l{font-size:.92rem;font-weight:700}
  .mcap .s{color:var(--muted);font-size:.74rem;margin-top:8px}
 }
+.copy{font:inherit;font-size:.8rem;cursor:pointer;margin-left:6px;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:var(--glass);color:var(--text);vertical-align:baseline;transition:all .2s}
+.copy:hover,.copy:focus-visible{border-color:var(--sec);outline:none}
+.copy.ok{background:var(--sec);border-color:var(--sec);color:#12092f;font-weight:700}
