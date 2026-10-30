@@ -99,3 +99,27 @@ li{margin:4px 0}
 .stk li{margin:0;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass);font-size:.85rem;color:var(--lav)}
 h3{margin:22px 0 6px}
 .alt{color:var(--muted);font-size:.88rem;margin:10px 0 0}
+
+/* ---------- phones: compact sticky header + scroll-driven planet line ---------- */
+.space-run,.mcap{display:none}
+@media (max-width:700px){
+ .top{position:sticky;inset:auto;top:0;background:rgba(7,5,26,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+ .top .wrap{min-height:0;padding-top:10px;padding-bottom:8px;row-gap:4px}
+ .brand img{height:30px;width:auto}
+ nav{gap:16px;width:100%}
+ nav a{font-size:.9rem;padding:2px 0}
+ main{padding-top:24px}
+ .stage{overflow:clip}
+ .stage .stage-copy{padding-top:56px}
+ .space{position:sticky;top:var(--hdr,96px);height:calc(100svh - var(--hdr,96px) - 40px);min-height:0;margin-top:-70px;z-index:1;order:2;background:linear-gradient(var(--bg),rgba(7,5,26,0) 12%)}
+ .space-run{display:block;order:2;height:260svh}
+ .orbit-nav{position:relative;z-index:2}
+ .mcap{display:block;position:absolute;left:16px;right:16px;top:47%;z-index:3;padding:14px 16px;border-radius:16px;background:rgba(14,10,43,.88);border:1px solid var(--line);backdrop-filter:blur(10px)}
+ .mcap[hidden]{display:none}
+ .mcap p{margin:0}
+ .mcap .t{color:var(--sec);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem}
+ .mcap .n{font-weight:700;font-size:1.15rem;margin:2px 0}
+ .mcap .d{color:var(--muted);font-size:.9rem;line-height:1.45;margin:4px 0 8px}
+ .mcap .l{font-size:.92rem;font-weight:700}
+ .mcap .s{color:var(--muted);font-size:.74rem;margin-top:8px}
+}

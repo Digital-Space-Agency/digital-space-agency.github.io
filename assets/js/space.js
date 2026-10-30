@@ -292,6 +292,7 @@ function boot() {
     { tilt: [0.7, -0.5], r: [3.5, 3.8, 4.1] },
   ];
   const moons = [];
+  let mobile = false, runEl = null, lineW = 1, prog = 0, lineOrder = [];
   const clickable = [];
   // three "solar systems" side by side; the camera flies between them
   const SPACE = 15, SYS_Y = [0, -0.8, 0.8], SYS_Z = [0, -3, -1.5];
@@ -363,7 +364,8 @@ function boot() {
   function applyGroup() {
     Object.entries(ringsOf).forEach(([g, ls]) => ls.forEach((l) => { l.visible = true; }));
     clickable.length = 0;
-    moons.forEach((m) => { if (m.s.group === activeGroup) clickable.push(m.hit); });
+    moons.forEach((m) => { if (mobile || m.s.group === activeGroup) clickable.push(m.hit); });
+    if (mobile) syncMobile();
     items.forEach((it) => { it.li.hidden = it.group !== activeGroup; });
     document.querySelectorAll('.gtab').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.group === activeGroup)));
   }
@@ -372,13 +374,56 @@ function boot() {
     if (!panel.hidden) closePanel();
   }));
 
+  // ---- phone layout: one horizontal line of planets, driven by page scroll ----
+  const MS = 1.3, GAP = 2.1;
+  const lineRoot = new THREE.Group(); lineRoot.visible = false; scene.add(lineRoot);
+  function syncMobile() {
+    moons.forEach((m) => { if (m.obj.parent !== lineRoot) { m.home = m.home || m.obj.parent; lineRoot.add(m.obj); } m.k = MS; });
+    lineOrder = [...moons].sort((a, b) => sysIdx(a.s.group) - sysIdx(b.s.group) || (b.s.dsa ? 1 : 0) - (a.s.dsa ? 1 : 0) || slots.indexOf(a.s) - slots.indexOf(b.s));
+    lineOrder.forEach((m, i) => { m.lx = i * GAP; m.ly = Math.sin(i * 1.3) * 0.5; });
+    lineW = Math.max((lineOrder.length - 1) * GAP, 1);
+  }
+  function setMode(on) {
+    mobile = on;
+    lineRoot.visible = on;
+    sysNames.forEach((n) => { sysRoot[n].visible = !on; });
+    if (on) {
+      if (!runEl) { runEl = document.createElement('div'); runEl.className = 'space-run'; runEl.setAttribute('aria-hidden', 'true'); host.after(runEl); }
+      syncMobile();
+    } else {
+      moons.forEach((m) => { if (m.home) m.home.add(m.obj); m.k = 1; });
+      flyX = 0; flyTo = sysIdx(activeGroup) * SPACE;
+    }
+    applyGroup();
+  }
+  let capEl = null, capFor = null;
+  function caption(m) {
+    if (!capEl) { capEl = document.createElement('div'); capEl.className = 'mcap'; host.appendChild(capEl); }
+    if (m === capFor) return; capFor = m;
+    if (!m) { capEl.hidden = true; return; }
+    const it = m.s.it; capEl.hidden = false; capEl.textContent = '';
+    const mk = (tag, cls, txt) => { const e = document.createElement(tag); e.className = cls; e.textContent = txt; capEl.appendChild(e); return e; };
+    mk('p', 't', it.tag || '');
+    mk('p', 'n', it.name);
+    mk('p', 'd', it.desc || '');
+    const a = mk('a', 'l', it.id === 'dsa' ? 'About David' : 'See in Work'); a.href = it.href;
+    mk('p', 's', (lineOrder.indexOf(m) + 1) + ' / ' + lineOrder.length + '  ·  keep scrolling to fly on');
+  }
+  function updateProg() {
+    if (!runEl) return;
+    const stick = parseFloat(getComputedStyle(host).top) || 0;
+    prog = Math.min(Math.max((stick + host.clientHeight - runEl.getBoundingClientRect().top) / (runEl.offsetHeight || 1), 0), 1);
+  }
+
   // ---- sizing ----
   let baseZ = 11.5;
   function resize() {
     const w = host.clientWidth, h = host.clientHeight;
     renderer.setSize(w, h, false); camera.aspect = w / h;
     const wide = w > 900;
-    baseZ = wide ? 11.5 : w > 600 ? 14.5 : 15;
+    const phone = w <= 700; if (phone !== mobile) setMode(phone);
+    const top = document.querySelector('.top'); if (top) document.documentElement.style.setProperty('--hdr', top.offsetHeight + 'px');
+    baseZ = phone ? 10 : wide ? 11.5 : w > 600 ? 14.5 : 15;
     shiftX = wide ? 3.4 : w > 600 ? 2.2 : 0; layout();
     const k = wide ? 1.05 : 0.9;
     planet.scale.setScalar(k); atmo.scale.setScalar(k); centrals.forEach((c) => c.scale.setScalar(k));
@@ -401,7 +446,8 @@ function boot() {
     const ppu = host.clientHeight / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * dist);
     _v.project(camera);
     const x = (_v.x * 0.5 + 0.5) * host.clientWidth, y = (-_v.y * 0.5 + 0.5) * host.clientHeight;
-    pchip.style.transform = `translate(${x.toFixed(1)}px, ${(y + m.s.size * m.hover * ppu * m.obj.parent.scale.x + 10).toFixed(1)}px) translateX(-50%)`;
+    const half = (pchip.offsetWidth || 0) / 2 + 8, cx = Math.min(Math.max(x, half), host.clientWidth - half);
+    pchip.style.transform = `translate(${cx.toFixed(1)}px, ${(y + m.s.size * (m.k || 1) * m.hover * ppu * m.obj.parent.scale.x + 10).toFixed(1)}px) translateX(-50%)`;
     pchip.classList.add('on');
   }
 
@@ -481,20 +527,32 @@ function boot() {
     requestAnimationFrame(frame);
     const dt = Math.min((now - last) / 1000, 0.05); last = now;
     if (!visible || document.hidden) return;
+    if (mobile) updateProg();
     if (!drag) { world.rotation.y += (vel + (reduce ? 0.0004 : 0.0012)) * (1); vel *= 0.94; }
     earth.rotation.y += dt * 0.035 * speedK; clouds.rotation.y += dt * 0.045 * speedK;
     stars.rotation.y += dt * 0.004 * speedK;
-    flyX += (flyTo - flyX) * (reduce ? 1 : 1 - Math.exp(-dt * 2.6));
-    const away = Math.abs(flyTo - flyX);
+    if (mobile) { flyX += (prog * lineW - flyX) * (reduce ? 1 : 1 - Math.exp(-dt * 7)); } else flyX += (flyTo - flyX) * (reduce ? 1 : 1 - Math.exp(-dt * 2.6));
+    const away = mobile ? 0 : Math.abs(flyTo - flyX);
     sysNames.forEach((n, i) => { if (i) { sysRoot[n].rotation.y = world.rotation.y; sysRoot[n].rotation.x = world.rotation.x; } });
     spinners.forEach((b) => { b.rotation.y += dt * 0.12 * speedK; });
     stars.position.x = flyX * 0.85;
+    if (mobile) { camera.position.set(flyX, 0, baseZ); camera.lookAt(flyX, -1.9, 0); stars.position.x = flyX * 0.6; }
+    else {
     camera.position.x += (flyX + tx * 0.9 - camera.position.x) * 0.2;
     camera.position.y += (0.6 - ty * 0.7 - camera.position.y) * 0.04;
     camera.position.z = baseZ + Math.min(away, SPACE) * 0.55;
     camera.lookAt(flyX + shiftX * 0.15, 0, 0);
+    }
+    const near = mobile ? lineOrder[Math.min(Math.max(Math.round(flyX / GAP), 0), lineOrder.length - 1)] : null;
     for (const m of moons) {
-      const active = hovered === m.hit || selected === m.hit;
+      const active = hovered === m.hit || selected === m.hit || m === near;
+      if (mobile) {
+        m.obj.position.set(m.lx, m.ly + Math.sin(now / 1400 + m.lx) * 0.07, 0);
+        m.hover += ((active ? 1.2 : 1) - m.hover) * 0.15;
+        m.obj.scale.setScalar(Math.max(m.dsa ? m.obj.userData.base * MS * m.hover : MS * m.hover * m.show, 0.001));
+        if (!m.dsa) m.body.rotation.y += dt * m.spin * speedK;
+        continue;
+      }
       if (!active) m.angle += m.speed * dt * speedK;
       const r = m.s.r, x = Math.cos(m.angle) * r, z = Math.sin(m.angle) * r;
       m.obj.position.set(x, 0, z);
@@ -504,7 +562,8 @@ function boot() {
       m.body.rotation.y += dt * m.spin * speedK;
     }
     const act = moons.find((m) => m.hit === hovered) || moons.find((m) => m.hit === selected);
-    updateChip(act);
+    if (mobile) caption(near);
+    updateChip(mobile ? null : act);
     renderer.render(scene, camera);
   }
 
