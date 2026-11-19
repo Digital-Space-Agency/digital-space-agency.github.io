@@ -18,6 +18,7 @@ nav a:hover,nav a[aria-current]{border-color:var(--sec)}
 main{padding-top:68px}
 .home main{padding-top:0}
 .hero{padding:72px 0 40px}
+.home .hero{padding-top:150px}
 .eyebrow{color:var(--sec);text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;margin:0 0 14px}
 h1{font-size:clamp(2rem,4.8vw,3.4rem);line-height:1.1;margin:0 0 18px;max-width:20ch;letter-spacing:-.01em}
 .hero h1{max-width:26ch}
