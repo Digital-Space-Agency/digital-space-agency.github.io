@@ -3,13 +3,43 @@
 ## AI Agents, Automation & Private On-Device Mobile AI | Digital Space Agency
 URL: https://www.digitalspaceagency.com/
 Custom AI agents, n8n workflow automation and private on-device mobile AI apps (iOS and Android, Flutter). Senior engineering from Hamburg, working with EU and UK teams. 15 years in mobile.
-Launching…
 Less busywork. More business.
 Custom AI agents, automated workflows and private on-device apps. We take the admin off your team so you can get on with growth.
 Book a 15-Minute Discovery Call See How We Solve It
 No mail app? Open in Gmail or write to info@dsa.team Copy
+Your team is hired to grow the business, not copy‑paste data.
+Repetitive admin is eating your week
+Invoices, reports, onboarding and data entry quietly drain hours from your best people.
+Cloud AI raises privacy questions
+Sending customer or internal data to third-party servers is a GDPR headache you can avoid.
+Off-the-shelf software never fits
+You end up paying for bloated tools and still working around them.
+What we build
+01
+AI agents & workflow automation
+The problem: disconnected tools and manual hand-offs slow every process down.
+How we fix it: n8n workflows and AI agents that link your systems and run reliably, with tests, retries and monitoring.
+Automation →
+02
+Secure on-device mobile AI
+The problem: cloud AI sends sensitive data off the device and stops working offline.
+How we fix it: local language models that run on the phone. No cloud, no uploads, works offline and keeps data private by design.
+On-device AI →
+03
+AI-first mobile applications
+The problem: AI bolted onto an app as an afterthought feels slow and generic.
+How we fix it: iOS and Android apps built in Flutter with AI at the core, from architecture to store release.
+Mobile apps →
+04
+Custom internal tools & integrations
+The problem: bloated off-the-shelf software that never fits how you work.
+How we fix it: lean tools and integrations built around your process, so your team does less and ships more.
+Tools & leadership →
+Previous work
+Apps we have shipped for global brands
+FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered, plus our own on-device AI products. Pick a planet to explore.
 Drag to spin · click an orbiting appScroll to fly through the apps · tap one to open
-Sport & motorsportBrands & mediaMy products
+Sport & motorsportBrands & mediaOur products
 FIFA
 Porsche
 Adidas Training by Runtastic
@@ -26,32 +56,33 @@ FlutterFix
 WBS AI Agents & Automations
 ×
 See in Work
-What I do
-Flutter & mobile apps
-Architecture, build and release of iOS and Android apps in Flutter, Swift and Kotlin. Testing, CI/CD and store delivery included.
-Mobile development →
-AI agents & n8n automation
-Production workflows and MCP agents with the same discipline as shipped apps: tests, retries and monitoring.
-Automation →
-Tech lead & audits
-Lead a team, review an architecture, or rescue a codebase. Hands-on, not slideware.
-Leadership →
+Senior engineering. Zero agency bloat.
+Privacy-first by architecture
+On-device AI keeps data on the device. Fewer vendors, fewer risks, and an easier GDPR conversation.
+Built for ROI, not hype
+We start from the hours you lose today and automate what pays back first.
+Production-ready speed
+Fifteen years in mobile, with apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered. Senior hands, no layers of hand-offs.
+Let's build your next idea.
+Met us at the conference, or found us online? Tell us what is slowing your team down and we will show you what can be automated.
+Start a Conversation See the work
+Hamburg | Remote EU/UK · digitalspaceagency.com
 Questions
 Do you work on fixed projects, retainers or contract?
 All three. We take project work, ongoing retainers and contract engagements (on-site or hybrid in Hamburg, remote for UK and EU teams on CET).
 What do you build?
-Production mobile apps in Flutter, plus native iOS (Swift) and Android (Kotlin) when the project needs it, and AI agent and n8n automation workflows.
+AI agents and n8n automation workflows, private on-device AI in mobile apps, production iOS and Android apps in Flutter (plus native Swift and Kotlin when needed), and custom internal tools.
 Who will actually do the work?
 Senior engineers lead and build every project personally. Digital Space Agency is a senior-only studio: no juniors, no account managers, and every release is reviewed and tested before it ships.
 Which time zones and languages do you work in?
 Central European Time, in English. We work with teams across the UK and EU.
 How do I start?
-Email info@dsa.team with a short description of the project, and we will reply with availability and next steps.
+Book a 15-minute discovery call from our calendar, or email info@dsa.team with a short description of the problem. We reply with availability and next steps.
 
 ## Flutter, Mobile App & AI Automation Services | Digital Space Agency
 URL: https://www.digitalspaceagency.com/services/
-Flutter and native mobile app development, n8n and AI agent automation, and technical leadership. Projects, retainers and contract, Hamburg and remote across the UK and EU.
-Services: Flutter development, AI automation and technical leadership
+AI agents and n8n automation, private on-device mobile AI, Flutter app development and technical leadership. Projects, retainers and contract, Hamburg and remote across the UK and EU.
+Services: AI automation, on-device mobile AI and Flutter development
 Senior engineers, accountable end to end. Based in Hamburg and working remotely with UK and EU teams on CET.
 Flutter and mobile app development
 We design, build and release cross-platform apps in Flutter and Dart, and native apps in Swift and Kotlin where it makes sense. Typical work: new product builds, feature squads inside an existing team, performance and crash fixes, and store submission and release pipelines.
@@ -59,6 +90,8 @@ Flutter, Dart, Provider, Riverpod, GoRouter
 iOS (Swift) and Android (Kotlin)
 Firebase, REST APIs, RevenueCat subscriptions
 Unit, widget and integration testing; GitHub Actions and Xcode Cloud CI/CD
+Private on-device mobile AI
+We run small language models directly on the phone, so sensitive data never leaves the device. No cloud calls, no per-token fees, and it keeps working offline. A strong fit for voice, documents and regulated or privacy-sensitive data.
 AI agents and n8n automation
 We build n8n workflows and MCP-based AI agents that run reliably: schema-validated tool calls, retries, error handling and monitoring. Good for back-office processes, content and data pipelines, and internal tools.
 Technical leadership and audits
@@ -81,52 +114,65 @@ Email info@dsa.team with a short description of the project, and we will reply w
 URL: https://www.digitalspaceagency.com/work/
 Selected mobile apps by Digital Space Agency: client work for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball, Standard Chartered, IBM (for Mercedes-AMG PETRONAS F1) and Accedo, plus ReelMatch, Hushdo, FlutterFix and n8n automation work.
 Work: apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV and more
-Client engagements as part of delivery teams, plus products I build and run myself.
+Client engagements as part of delivery teams, plus products we build and run ourselves.
 Client work
 FIFA
 Mobile app development for FIFA.
-Read more →Client work
+Read more →
+Client work
 Porsche
 Mobile app development for Porsche.
-Read more →Client work
+Read more →
+Client work
 Adidas Training by Runtastic
 Adidas Training by Runtastic app for the Facebook Portal TV device.
-Read more →Client work
+Read more →
+Client work
 Canon Lifecake
 Lifecake, the family photo and video app owned by Canon.
-Read more →Client work
+Read more →
+Client work
 F1 TV
 Mobile app for the Formula 1 streaming service.
-Read more →Client work
+Read more →
+Client work
 OneFootball
 Mobile app for one of the world's largest football media platforms.
-Read more →Client work
+Read more →
+Client work
 Shoal for Standard Chartered
 Shoal, a sustainable savings app built with Standard Chartered: savings pots backed by a green and social project portfolio.
-Read more →Client work
+Read more →
+Client work
 IBM for Mercedes-AMG PETRONAS F1
 Android application for the Mercedes-AMG PETRONAS F1 Team, built to a tight deadline through IBM.
-Read more →Client work
+Read more →
+Client work
 Accedo NUVU
 Nuvu, Ericsson's video-on-demand service for Africa, built as architect and developer through Accedo in Stockholm.
-Read more →Client work
+Read more →
+Client work
 BBC Good Food
 Recipe app project.
-Read more →My own product
+Read more →
+Our own product
 ReelMatch
 Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play.
-Read more →My own product
+Read more →
+Our own product
 Hushdo
 Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com.
-Read more →Side project
+Read more →
+Side project
 FlutterFix
 Open-source tool that lets testers long-press a bug in a Flutter app, then sends the report to Claude, which opens a pull request with the fix. MIT licensed.
-Read more →AI & automation
+Read more →
+AI & automation
 WBS AI Agents & Automations
 n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring.
 Read more →
 
-## About Digital Space Agency | AI Automation &amp; Mobile Studio, Hamburg
+## About Digital Space Agency | AI Automation & Mobile Studio, Hamburg
 URL: https://www.digitalspaceagency.com/about/
 Digital Space Agency is a Hamburg studio with 15 years in mobile and 7 shipping Flutter, building AI agents, n8n automations and on-device mobile AI.
 About Digital Space Agency
@@ -144,7 +190,7 @@ URL: https://www.digitalspaceagency.com/contact/
 Email Digital Space Agency about AI automation projects, on-device mobile AI or Flutter contract work. Hamburg and remote, CET.
 Contact Digital Space Agency
 Tell us about the project. We reply with availability and next steps.
-info@dsa.team Message on LinkedIn
+Book a 15-Minute Discovery Call Message on LinkedIn
 No mail app? Open in Gmail or write to info@dsa.team Copy
 Digital Space Agency UG · Hamburg, Germany
 
@@ -159,7 +205,7 @@ The 2014 FIFA World Cup in Brazil is the most-watched sporting event on earth, a
 About the brand
 The official FIFA World Cup app was released in December 2013 and fully updated for the 2014 tournament in Brazil. It gave fans live coverage of all 64 games, news, photos and videos, real-time voting for Man of the Match, tournament stats, the FIFA/Coca-Cola World Ranking and scores from 197 leagues, plus a social feed for FIFA's Global Stadium. Source: Wikipedia. Source: FIFA press release, 12 June 2014.
 www.fifa.com
-My role
+Our role
 We worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
 What we built
 Worked on the official FIFA World Cup app for Brazil 2014 and spent six weeks in Brazil during the tournament.
@@ -214,10 +260,10 @@ Unlocking a car from a phone is a small action with a large trust problem. Porsc
 About the brand
 Porsche Car Connect is the connected-car service for Porsche vehicles, used through the Porsche mobile app. Its Remote, Safety and Security services let owners lock and unlock the car, control the climate, manage electric charging and see vehicle data such as mileage, tyre pressure and range. Source: Wikipedia. Source: Porsche Car Connect services.
 www.porsche.com
-My role
+Our role
 We worked on the Porsche Car Connect mobile app.
 What we built
-Worked on the Porsche Car Connect mobile app (2013 to 2014) through my consultancy, RedMill.
+Worked on the Porsche Car Connect mobile app (2013 to 2014) through RedMill, our consultancy.
 Outcome
 Shipped as part of Porsche's Car Connect services for the Porsche Connect platform.
 Tech and keywords
@@ -267,8 +313,8 @@ A workout app that has to work from the sofa, across the room, on a TV-sized scr
 About the brand
 Runtastic is the fitness app brand from Adidas, now sold as the adidas Running and adidas Training apps. They track runs, walks, hikes and cycling and offer workouts, and logged activities earn adiClub points. Adidas is a German sportswear company headquartered in Herzogenaurach. Source: Wikipedia. Source: adidas Running on Google Play.
 www.runtastic.com
-My role
-I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
+Our role
+We built the Adidas Training by Runtastic app for the Facebook Portal TV device.
 What we built
 Ported the Adidas Training Android app to Android TV on Facebook Portal TV as the sole developer, in partnership with Adidas and Facebook.
 Built video playback and download, guided timed workouts and training plans personalised to the user's body data, with fitness tracking and rewards.
@@ -305,9 +351,9 @@ Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on Adidas Training by Runtastic?
-I built the Adidas Training by Runtastic app for the Facebook Portal TV device. Details of scope and stack are shared on request.
+We built the Adidas Training by Runtastic app for the Facebook Portal TV device. Details of scope and stack are shared on request.
 Who developed the Adidas Training by Runtastic app?
-Adidas Training by Runtastic work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
+Adidas Training by Runtastic work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We built the Adidas Training by Runtastic app for the Facebook Portal TV device.
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -336,7 +382,7 @@ Parents take thousands of photos of their children and never look at them again.
 About the brand
 Lifecake was a private family photo and video app that turned a child's photos into a timeline for sharing with family. It was started in London in 2012 and acquired by Canon Europe in 2015. The service closed on 30 June 2020, and its founders launched BackThen as a successor. Source: Wikipedia. Source: Lifecake timeline.
 global.canon
-My role
+Our role
 We worked on the Lifecake app for Canon.
 What we built
 Android developer on Lifecake for Canon (2017 to 2018), the app's years under Canon Europe's ownership.
@@ -392,7 +438,7 @@ Race fans watch twenty on-board cameras while the timing screen keeps pace to th
 About the brand
 The F1 TV app is the official Formula 1 streaming app. With a subscription it streams every session live and on demand, with onboard cameras, live team radios, live timing and coverage of support series such as F2 and F3. It runs on mobile, the web and TV platforms. Source: Wikipedia. Source: F1 TV Pro.
 f1tv.formula1.com
-My role
+Our role
 We worked on the F1 TV mobile app.
 What we built
 Led a five-person iOS and Android team delivering the mobile and video-on-demand features of the official F1 TV app, working with product, backend, video and mobile teams.
@@ -465,7 +511,7 @@ OneFootball reports more than 100 million monthly active users. Putting a shop i
 About the brand
 The OneFootball app is a free football app for iOS and Android with live scores, news, notifications, statistics and video, including live streams and highlights from selected competitions. OneFootball is based in Berlin. Source: Wikipedia. Source: OneFootball on Google Play.
 onefootball.com
-My role
+Our role
 We worked on the OneFootball mobile app.
 What we built
 Long-term engagement (Jan 2025 to Feb 2026): delivered OneFootball's Flutter e-commerce storefront, bringing merchandise purchasing into the consumer app.
@@ -544,10 +590,10 @@ A savings app has to feel simple while handling account opening, identity and mo
 About the brand
 Shoal is a mobile savings app where people earn interest through Savings Pots while their money is referenced against a global portfolio of green and social projects. The sustainable asset portfolio is managed by Standard Chartered, and the app shows the CO2e avoided and clean water generated by each saver's pots. Source: Wikipedia. Source: Shoal.
 www.shoalapp.com/
-My role
+Our role
 We worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
 What we built
-Delivered Shoal for Standard Chartered Ventures, through Hi Mum! Said Dad, as the solo Flutter developer, taking the app over the line to release in a short engagement (January 2022).
+Delivered Shoal for Standard Chartered Ventures, through Hi Mum! Said Dad, as the Flutter lead, taking the app over the line to release in a short engagement (January 2022).
 Built onboarding, account setup and deposit features, with AWS Cognito authentication.
 Architecture and approach
 Flutter and Dart cross-platform app for iOS and Android.
@@ -558,10 +604,10 @@ Hard problems
 Regulated flows with no room for guesswork
 Onboarding and deposits touch real money, so each step needed explicit error and empty states, tested before release rather than discovered after.
 Getting to release quickly
-As the only Flutter developer, the priority was a shippable vertical slice: authentication, account setup and deposits first, polish second.
+As the Flutter lead, the priority was a shippable vertical slice: authentication, account setup and deposits first, polish second.
 Outcome
 Shoal released: a savings app where Savings Pots are referenced against green and social projects.
-Delivered as a solo Flutter developer in a short engagement.
+Delivered as a Flutter lead in a short engagement.
 Tech and keywords
 Flutter
 Dart
@@ -614,8 +660,8 @@ A Formula One team does not wait for a fan app. Building the official Mercedes-A
 About the brand
 The Mercedes-AMG PETRONAS F1 Team app is the team's official mobile app for fans, covering news, analysis, photos and video from inside the Formula One team. The team is based in Brackley, England, and won eight consecutive Constructors' Championships from 2014 to 2021. Source: Wikipedia.
 www.mercedesamgf1.com
-My role
-Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
+Our role
+Through IBM, we built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
 What we built
 Android developer through IBM on the official Mercedes-AMG PETRONAS F1 Team fan app (2017).
 Delivered an Android application to a tight deadline.
@@ -638,9 +684,9 @@ Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on IBM for Mercedes-AMG PETRONAS F1?
-Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline. Details of scope and stack are shared on request.
+Through IBM, we built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline. Details of scope and stack are shared on request.
 Who developed the IBM for Mercedes-AMG PETRONAS F1 app?
-IBM for Mercedes-AMG PETRONAS F1 work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
+IBM for Mercedes-AMG PETRONAS F1 work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. Through IBM, we built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -669,8 +715,8 @@ In 2015 most of sub-Saharan Africa could not stream video reliably or cheaply. N
 About the brand
 Nuvu was Ericsson's first end-to-end subscription video-on-demand service, announced in November 2015 for Africa and marketed with mobile operators, starting with Airtel Nigeria. Subscribers got around 3,000 local and international titles for a small monthly fee, downloaded at off-peak times and watched offline. Accedo is a global provider of streaming software and services founded in Stockholm. Source: About Accedo. Source: Ericsson launches NuVu, Nov 2015. Source: Nuvu brand and UI design.
 www.accedo.tv
-My role
-I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
+Our role
+We worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
 What we built
 Architect and developer on Nuvu by Ericsson, working for Accedo (2015 to 2016), the agency in a fully agile team at Accedo's Stockholm office.
 Nuvu launched as an Android app with a personalised interface, bookmarking and recommendations, and was marketed with operators, starting with Airtel Nigeria.
@@ -707,9 +753,9 @@ Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on Accedo NUVU?
-I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016). Details of scope and stack are shared on request.
+We worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016). Details of scope and stack are shared on request.
 Who developed the Accedo NUVU app?
-Accedo NUVU work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
+Accedo NUVU work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -738,7 +784,7 @@ Recipe apps live in the kitchen: wet hands, a propped-up phone and a timer going
 About the brand
 The Good Food: Recipe Finder app (formerly the BBC Good Food app) is an ad-free cooking app with thousands of kitchen-tested recipes, exclusive meal plans, a cook mode and how-to videos. It is separate from the Good Food Magazine app, which is the digital edition of the print magazine. Source: Wikipedia. Source: Good Food app FAQ.
 www.bbcgoodfood.com
-My role
+Our role
 We worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
 What we built
 Worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
@@ -782,16 +828,16 @@ WBS AI Agents & Automations
 
 ## ReelMatch | Our own product | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/reelmatch/
-Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play. ReelMatch is my own app for deciding what to watch together.
+Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play. ReelMatch is our own app for deciding what to watch together.
 Home / Work / ReelMatch
-My own product · Entertainment
+Our own product · Entertainment
 ReelMatch
 Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play.
 Two people on a sofa, forty minutes of scrolling, and still no film. ReelMatch turns that into a swipe: each person likes what they like, and the app finds what they both want to watch.
 What it is
-ReelMatch is my own app for deciding what to watch together. You swipe through recommendations in a Tinder-style stack, watch trailers, and match with friends on shared interests.
-My role
-I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
+ReelMatch is our own app for deciding what to watch together. You swipe through recommendations in a Tinder-style stack, watch trailers, and match with friends on shared interests.
+Our role
+We designed, built and run ReelMatch end to end, live on the App Store and Google Play.
 What we built
 Designed, built and run end to end: product, UX, architecture, backend, builds and release on the App Store and Google Play.
 A Tinder-style swipe stack of recommendations with trailers, a friends list, shared likes and a match view that shows what two people both want to see.
@@ -808,7 +854,7 @@ Hard problems
 Recommending to users with no history
 Cold-start: before a user has ten likes the engine blends popular and genre-based titles. After that it mixes TMDB recommendations seeded from their likes, filtered by genre, language and streaming platform, retries on API failure and de-duplicates across sources.
 A production crash in a dependency
-Crashlytics showed a fatal AnimationController double-dispose when a swipe was cancelled. I traced it to the swiper package, forked it into the repo with an _isDisposed guard and registered the fix as a dependency override.
+Crashlytics showed a fatal AnimationController double-dispose when a swipe was cancelled. We traced it to the swiper package, forked it into the repo with an _isDisposed guard and registered the fix as a dependency override.
 Image memory on older phones
 A swipe stack is image-heavy. The image cache is capped (200 images, 50 MB), image errors are suppressed and logged separately, and loading goes through a single cached network image widget.
 Free vs premium without leaks
@@ -841,14 +887,14 @@ Quick facts
 App: ReelMatch
 Category: Entertainment
 Built by: Digital Space Agency, Hamburg
-Type: My own product
+Type: Our own product
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on ReelMatch?
-I designed, built and run ReelMatch end to end, live on the App Store and Google Play. Details of scope and stack are shared on request.
+We designed, built and run ReelMatch end to end, live on the App Store and Google Play. Details of scope and stack are shared on request.
 Who made ReelMatch?
-ReelMatch work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
+ReelMatch work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We designed, built and run ReelMatch end to end, live on the App Store and Google Play.
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -868,16 +914,16 @@ WBS AI Agents & Automations
 
 ## Hushdo | Our own product | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/hushdo/
-Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com. Hushdo is my own voice-notes app.
+Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com. Hushdo is our own voice-notes app.
 Home / Work / Hushdo
-My own product · Productivity
+Our own product · Productivity
 Hushdo
 Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com.
 Voice notes are the most private data on your phone, and almost every voice app sends them to a server. Hushdo does the opposite: speech recognition and the language model both run on the device.
 What it is
-Hushdo is my own voice-notes app. Notes are transcribed, structured and searched entirely on the device using local AI models, with zero server uploads. An early-access waitlist is open at hushdo.com.
+Hushdo is our own voice-notes app. Notes are transcribed, structured and searched entirely on the device using local AI models, with zero server uploads. An early-access waitlist is open at hushdo.com.
 hushdo.com
-My role
+Our role
 We are designing and building Hushdo as a privacy-first product.
 What we built
 Designing and building Hushdo end to end: a private, on-device voice-to-tasks app, iOS first and Android second.
@@ -914,7 +960,7 @@ Quick facts
 App: Hushdo
 Category: Productivity
 Built by: Digital Space Agency, Hamburg
-Type: My own product
+Type: Our own product
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
@@ -950,8 +996,8 @@ You spot a bug on your phone, nowhere near a computer. Writing it up takes longe
 What it is
 FlutterFix is an open-source, MIT-licensed tool for Flutter teams. A tester long-presses a bug in a running Flutter app, the report goes to Claude, and Claude opens a pull request with the fix.
 github.com/digital-space-agency-com/flutterfix
-My role
-I created and maintain FlutterFix.
+Our role
+We created and maintain FlutterFix.
 What we built
 Created and maintain FlutterFix, an open-source MIT-licensed Dart package, widget, receiver and server for Flutter teams.
 A tester long-presses the element, types one sentence, and the report is sent with the element, its text, the widget path that built it, a screenshot with the element outlined and a replay of the seconds before.
@@ -991,9 +1037,9 @@ Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on FlutterFix?
-I created and maintain FlutterFix. Details of scope and stack are shared on request.
+We created and maintain FlutterFix. Details of scope and stack are shared on request.
 Who made FlutterFix?
-FlutterFix work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I created and maintain FlutterFix.
+FlutterFix work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We created and maintain FlutterFix.
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -1013,16 +1059,16 @@ WBS AI Agents & Automations
 
 ## WBS AI Agents & Automations | AI & automation by Digital Space Agency | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/ai-automations/
-n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring. We build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme.
+n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring. We build n8n workflows and MCP-based AI agents for back-office and engineering work, and we are completing WBS Coding School's AI Agents programme.
 Home / Work / WBS AI Agents & Automations
 AI & automation · Automation
 WBS AI Agents & Automations
 n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring.
-Most small teams lose hours to work that is predictable but not simple: moving data between tools, checking it, and chasing exceptions. I build agents and workflows that do it, with the same release discipline as a shipped mobile app.
+Most small teams lose hours to work that is predictable but not simple: moving data between tools, checking it, and chasing exceptions. We build agents and workflows that do it, with the same release discipline as a shipped mobile app.
 What it is
-We build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme. The same agents and workflows run Digital Space Agency itself.
-My role
-I design, build and monitor automations for my own studio and for clients.
+We build n8n workflows and MCP-based AI agents for back-office and engineering work, and we are completing WBS Coding School's AI Agents programme. The same agents and workflows run Digital Space Agency itself.
+Our role
+We design, build and monitor automations for our own studio and for clients.
 What we built
 n8n workflows and Python-based AI agents for back-office and engineering work, including the agents that run Digital Space Agency itself.
 Completed WBS Coding School's AI Agents and Automation programme (July to October 2026): two applied business-workflow prototypes and a final MVP combining n8n, Python, APIs and AI agents to solve a real business problem end to end.
@@ -1039,7 +1085,7 @@ Observability
 A silent automation is a risk. Every workflow reports success and failure somewhere a person will see it.
 Outcome
 Working MVP delivered as the final project of the programme.
-Used in my own studio daily.
+Used in our own studio daily.
 Tech and keywords
 n8n
 Python
@@ -1063,9 +1109,9 @@ Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
 What did Digital Space Agency do on WBS AI Agents & Automations?
-I design, build and monitor automations for my own studio and for clients. Details of scope and stack are shared on request.
+We design, build and monitor automations for our own studio and for clients. Details of scope and stack are shared on request.
 Who made WBS AI Agents & Automations?
-WBS AI Agents & Automations work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I design, build and monitor automations for my own studio and for clients.
+WBS AI Agents & Automations work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We design, build and monitor automations for our own studio and for clients.
 Can Digital Space Agency build a similar app?
 Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
@@ -1082,4 +1128,3 @@ BBC Good Food
 ReelMatch
 Hushdo
 FlutterFix
-

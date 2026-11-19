@@ -306,7 +306,7 @@ function boot() {
       const g = new THREE.Group(); g.rotation.set(p.tilt[0], 0, p.tilt[1]); root.add(g); orbitGroups.push(g); return g;
     });
   });
-  [['brands', 'gas', 1.15, 'Brands & media'], ['mine', 'teal', 1.05, 'My products']].forEach(([name, type, rad, label]) => {
+  [['brands', 'gas', 1.15, 'Brands & media'], ['mine', 'teal', 1.05, 'Our products']].forEach(([name, type, rad, label]) => {
     try {
       const { group, body } = buildPlanet({ id: 'sys-' + name, name: label }, type, rad, false);
       sysRoot[name].add(group); centrals.push(group); spinners.push(body);
