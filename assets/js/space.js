@@ -329,7 +329,7 @@ function boot() {
     });
   });
   const usedRings = new Set();
-  const dsaItem = { id: 'dsa', name: 'Digital Space Agency', tag: 'Home base', desc: 'Digital Space Agency: independent Flutter and mobile studio in Hamburg. Contract and full-time.', href: '/about/', kind: 'dsa' };
+  const dsaItem = { id: 'dsa', name: 'Digital Space Agency', tag: 'Home base', desc: 'Digital Space Agency: independent Flutter and mobile studio in Hamburg. Projects, retainers and contract.', href: '/about/', kind: 'dsa' };
   gnames.forEach((g) => slots.push({ it: dsaItem, group: g, plane: 2, r: 3.9, size: 0.6, dsa: true }));
 
   const perKey = {};
@@ -423,7 +423,7 @@ function boot() {
     mk('p', 't', it.tag || '');
     mk('p', 'n', it.name);
     mk('p', 'd', it.desc || '');
-    const a = mk('a', 'l', it.id === 'dsa' ? 'About David' : 'See in Work'); a.href = it.href;
+    const a = mk('a', 'l', it.id === 'dsa' ? 'About us' : 'See in Work'); a.href = it.href;
     mk('p', 's', (lineOrder.indexOf(m) + 1) + ' / ' + lineOrder.length + '  ·  keep scrolling to fly on');
   }
   function updateProg() {
@@ -518,7 +518,7 @@ function boot() {
     panel.querySelector('.p-name').textContent = it.name;
     panel.querySelector('.p-desc').textContent = it.desc;
     const a = panel.querySelector('.p-link'); a.href = it.href;
-    a.textContent = it.id === 'dsa' ? 'About David' : 'See in Work';
+    a.textContent = it.id === 'dsa' ? 'About us' : 'See in Work';
     panel.hidden = false; requestAnimationFrame(() => panel.classList.add('open'));
     panel.querySelector('.p-close').focus();
   }

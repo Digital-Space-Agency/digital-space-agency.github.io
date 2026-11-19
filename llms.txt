@@ -1,9 +1,9 @@
 # Digital Space Agency
 
-> AI and automation studio in Hamburg, Germany, led by David Miller (15 years in mobile, 7 shipping Flutter). Builds custom AI agents, n8n workflow automation, private on-device mobile AI and Flutter apps. Available for contract work and open to full-time roles. Works remotely with UK and EU teams on CET.
+> AI and automation studio in Hamburg, Germany, led by Digital Space Agency (15 years in mobile, 7 shipping Flutter). Builds custom AI agents, n8n workflow automation, private on-device mobile AI and Flutter apps. Works remotely with UK and EU teams on CET.
 
 ## Pages
-- [Home](https://www.digitalspaceagency.com/): Summary of what David does and selected work
+- [Home](https://www.digitalspaceagency.com/): Summary of what Digital Space Agency does and selected work
 - [Services](https://www.digitalspaceagency.com/services/): AI agents and n8n automation, private on-device mobile AI, Flutter and mobile development, technical leadership, FAQ
 - [Work](https://www.digitalspaceagency.com/work/): Apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball, Standard Chartered, IBM for Mercedes-AMG PETRONAS F1, Accedo, BBC Good Food, plus ReelMatch, Hushdo, FlutterFix, AI agents and n8n automations
 - [FIFA](https://www.digitalspaceagency.com/work/fifa/): Mobile app development for FIFA.

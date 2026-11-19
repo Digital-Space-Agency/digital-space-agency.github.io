@@ -1,12 +1,12 @@
 # Digital Space Agency: full content
 
-## Flutter Developer & Mobile Architect, Hamburg | Digital Space Agency
+## AI Agents, Automation & Private On-Device Mobile AI | Digital Space Agency
 URL: https://www.digitalspaceagency.com/
-Senior Flutter and mobile developer in Hamburg. 15 years in mobile, apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered. Available for contract and full-time roles.
+Custom AI agents, n8n workflow automation and private on-device mobile AI apps (iOS and Android, Flutter). Senior engineering from Hamburg, working with EU and UK teams. 15 years in mobile.
 Launching…
-Senior Flutter & mobile developer, building apps and AI automations that ship.
-Digital Space Agency is the studio of David Miller: 15 years in mobile, 7 of them shipping Flutter, with apps delivered for FIFA, Porsche, Adidas, Canon, F1 TV and Standard Chartered. Available for contract work and open to full-time roles.
-Email David See the work
+Less busywork. More business.
+Custom AI agents, automated workflows and private on-device apps. We take the admin off your team so you can get on with growth.
+Book a 15-Minute Discovery Call See How We Solve It
 No mail app? Open in Gmail or write to info@dsa.team Copy
 Drag to spin · click an orbiting appScroll to fly through the apps · tap one to open
 Sport & motorsportBrands & mediaMy products
@@ -37,49 +37,49 @@ Tech lead & audits
 Lead a team, review an architecture, or rescue a codebase. Hands-on, not slideware.
 Leadership →
 Questions
-Do you work on contract or as a full-time employee?
-Both. I take freelance and contract engagements (on-site or hybrid in Hamburg, remote for UK and EU teams on CET) and I am open to the right full-time role.
+Do you work on fixed projects, retainers or contract?
+All three. We take project work, ongoing retainers and contract engagements (on-site or hybrid in Hamburg, remote for UK and EU teams on CET).
 What do you build?
 Production mobile apps in Flutter, plus native iOS (Swift) and Android (Kotlin) when the project needs it, and AI agent and n8n automation workflows.
 Who will actually do the work?
-Me, David Miller. Digital Space Agency is a one-person studio. I use AI agents and n8n automations for back-office work and for speeding up engineering, with every release reviewed and tested by me.
+Senior engineers lead and build every project personally. Digital Space Agency is a senior-only studio: no juniors, no account managers, and every release is reviewed and tested before it ships.
 Which time zones and languages do you work in?
-Central European Time, in English. I work with teams across the UK and EU.
+Central European Time, in English. We work with teams across the UK and EU.
 How do I start?
-Email info@dsa.team with a short description of the project or role, and I will reply with availability and next steps.
+Email info@dsa.team with a short description of the project, and we will reply with availability and next steps.
 
 ## Flutter, Mobile App & AI Automation Services | Digital Space Agency
 URL: https://www.digitalspaceagency.com/services/
-Flutter and native mobile app development, n8n and AI agent automation, and technical leadership. Contract and full-time, Hamburg and remote across the UK and EU.
+Flutter and native mobile app development, n8n and AI agent automation, and technical leadership. Projects, retainers and contract, Hamburg and remote across the UK and EU.
 Services: Flutter development, AI automation and technical leadership
-One senior engineer, accountable end to end. Based in Hamburg and working remotely with UK and EU teams on CET.
+Senior engineers, accountable end to end. Based in Hamburg and working remotely with UK and EU teams on CET.
 Flutter and mobile app development
-I design, build and release cross-platform apps in Flutter and Dart, and native apps in Swift and Kotlin where it makes sense. Typical work: new product builds, feature squads inside an existing team, performance and crash fixes, and store submission and release pipelines.
+We design, build and release cross-platform apps in Flutter and Dart, and native apps in Swift and Kotlin where it makes sense. Typical work: new product builds, feature squads inside an existing team, performance and crash fixes, and store submission and release pipelines.
 Flutter, Dart, Provider, Riverpod, GoRouter
 iOS (Swift) and Android (Kotlin)
 Firebase, REST APIs, RevenueCat subscriptions
 Unit, widget and integration testing; GitHub Actions and Xcode Cloud CI/CD
 AI agents and n8n automation
-I build n8n workflows and MCP-based AI agents that run reliably: schema-validated tool calls, retries, error handling and monitoring. Good for back-office processes, content and data pipelines, and internal tools.
+We build n8n workflows and MCP-based AI agents that run reliably: schema-validated tool calls, retries, error handling and monitoring. Good for back-office processes, content and data pipelines, and internal tools.
 Technical leadership and audits
-Fifteen years of shipping production apps. I can lead a mobile team, review an app's architecture and release process, or take over a struggling codebase and stabilise it.
+Fifteen years of shipping production apps. We can lead a mobile team, review an app's architecture and release process, or take over a struggling codebase and stabilise it.
 Engagement
-Contract and freelance (day rate, on-site or hybrid in Hamburg, or remote) and open to full-time roles. Get in touch with scope and timing.
+Project, retainer and contract engagements (on-site or hybrid in Hamburg, or remote). Get in touch with scope and timing.
 FAQ
-Do you work on contract or as a full-time employee?
-Both. I take freelance and contract engagements (on-site or hybrid in Hamburg, remote for UK and EU teams on CET) and I am open to the right full-time role.
+Do you work on fixed projects, retainers or contract?
+All three. We take project work, ongoing retainers and contract engagements (on-site or hybrid in Hamburg, remote for UK and EU teams on CET).
 What do you build?
 Production mobile apps in Flutter, plus native iOS (Swift) and Android (Kotlin) when the project needs it, and AI agent and n8n automation workflows.
 Who will actually do the work?
-Me, David Miller. Digital Space Agency is a one-person studio. I use AI agents and n8n automations for back-office work and for speeding up engineering, with every release reviewed and tested by me.
+Senior engineers lead and build every project personally. Digital Space Agency is a senior-only studio: no juniors, no account managers, and every release is reviewed and tested before it ships.
 Which time zones and languages do you work in?
-Central European Time, in English. I work with teams across the UK and EU.
+Central European Time, in English. We work with teams across the UK and EU.
 How do I start?
-Email info@dsa.team with a short description of the project or role, and I will reply with availability and next steps.
+Email info@dsa.team with a short description of the project, and we will reply with availability and next steps.
 
 ## Work: Apps for FIFA, Porsche, Adidas, Canon, F1 TV | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/
-Selected mobile apps by David Miller: client work for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball, Standard Chartered, IBM (for Mercedes-AMG PETRONAS F1) and Accedo, plus ReelMatch, Hushdo, FlutterFix and n8n automation work.
+Selected mobile apps by Digital Space Agency: client work for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball, Standard Chartered, IBM (for Mercedes-AMG PETRONAS F1) and Accedo, plus ReelMatch, Hushdo, FlutterFix and n8n automation work.
 Work: apps shipped for FIFA, Porsche, Adidas, Canon, F1 TV and more
 Client engagements as part of delivery teams, plus products I build and run myself.
 Client work
@@ -126,24 +126,24 @@ WBS AI Agents & Automations
 n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring.
 Read more →
 
-## About David Miller, Lead Flutter Developer in Hamburg | Digital Space Agency
+## About Digital Space Agency | AI Automation &amp; Mobile Studio, Hamburg
 URL: https://www.digitalspaceagency.com/about/
-David Miller is a lead Flutter developer in Hamburg with 15 years in mobile and 7 shipping Flutter, now also building AI agents and n8n automations.
-About David Miller
-Lead Flutter developer in Hamburg with 15 years in mobile and 7 shipping Flutter. Now also building AI agents and n8n automations with the same release discipline.
-I have shipped production apps for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball and Standard Chartered, worked with IBM on an Android app for the Mercedes-AMG PETRONAS F1 Team and with Accedo in Stockholm, and I build my own products, including ReelMatch, Hushdo and the open-source FlutterFix, plus n8n and AI agent automations. I studied at Northumbria University and am completing WBS Coding School's AI Agents programme.
+Digital Space Agency is a Hamburg studio with 15 years in mobile and 7 shipping Flutter, building AI agents, n8n automations and on-device mobile AI.
+About Digital Space Agency
+A Hamburg studio with 15 years in mobile and 7 shipping Flutter, now building AI agents, n8n automations and private on-device AI with the same release discipline.
+We have shipped production apps for FIFA, Porsche, Adidas, Canon, F1 TV, OneFootball and Standard Chartered, worked with IBM on an Android app for the Mercedes-AMG PETRONAS F1 Team and with Accedo in Stockholm, and we build our own products, including ReelMatch, Hushdo and the open-source FlutterFix, plus n8n and AI agent automations.
 How the agency works
-Digital Space Agency began as a partnership. It is now just me, supported by AI agents and n8n automations that run the back office and speed up engineering. You always deal directly with the person doing the work, and every release is reviewed and tested by me.
+Digital Space Agency is a senior-only studio, supported by AI agents and n8n automations that run the back office and speed up engineering. You always deal directly with the people doing the work, and every release is reviewed and tested before it ships.
 Availability
-Open to contract engagements and to the right full-time role. Hamburg on-site or hybrid, or remote for UK and EU teams on CET.
+Open to new projects, retainers and contract engagements. Hamburg on-site or hybrid, or remote for UK and EU teams on CET.
 Elsewhere
 LinkedIn · GitHub · info@dsa.team
 
-## Contact David Miller | Digital Space Agency
+## Contact Digital Space Agency | Digital Space Agency
 URL: https://www.digitalspaceagency.com/contact/
-Email David Miller about Flutter contract work, AI automation projects or a full-time role. Hamburg and remote, CET.
-Contact David Miller
-Tell me about the project or the role. I reply with availability and next steps.
+Email Digital Space Agency about AI automation projects, on-device mobile AI or Flutter contract work. Hamburg and remote, CET.
+Contact Digital Space Agency
+Tell us about the project. We reply with availability and next steps.
 info@dsa.team Message on LinkedIn
 No mail app? Open in Gmail or write to info@dsa.team Copy
 Digital Space Agency UG · Hamburg, Germany
@@ -160,8 +160,8 @@ About the brand
 The official FIFA World Cup app was released in December 2013 and fully updated for the 2014 tournament in Brazil. It gave fans live coverage of all 64 games, news, photos and videos, real-time voting for Man of the Match, tournament stats, the FIFA/Coca-Cola World Ranking and scores from 197 leagues, plus a social feed for FIFA's Global Stadium. Source: Wikipedia. Source: FIFA press release, 12 June 2014.
 www.fifa.com
 My role
-I worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
-What I built
+We worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
+What we built
 Worked on the official FIFA World Cup app for Brazil 2014 and spent six weeks in Brazil during the tournament.
 The app covered live coverage of all 64 games, news, photos and video, real-time Man of the Match voting, stats, the FIFA/Coca-Cola World Ranking and scores from 197 leagues.
 Outcome
@@ -177,17 +177,17 @@ Multi-language
 Quick facts
 App: FIFA
 Category: Sport
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on FIFA?
-I worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament. Details of scope and stack are shared on request.
+What did Digital Space Agency do on FIFA?
+We worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament. Details of scope and stack are shared on request.
 Who developed the FIFA app?
-FIFA work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+FIFA work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the official FIFA World Cup app for Brazil 2014, and spent six weeks in Brazil during the tournament.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 Porsche
 Adidas Training by Runtastic
@@ -215,8 +215,8 @@ About the brand
 Porsche Car Connect is the connected-car service for Porsche vehicles, used through the Porsche mobile app. Its Remote, Safety and Security services let owners lock and unlock the car, control the climate, manage electric charging and see vehicle data such as mileage, tyre pressure and range. Source: Wikipedia. Source: Porsche Car Connect services.
 www.porsche.com
 My role
-I worked on the Porsche Car Connect mobile app.
-What I built
+We worked on the Porsche Car Connect mobile app.
+What we built
 Worked on the Porsche Car Connect mobile app (2013 to 2014) through my consultancy, RedMill.
 Outcome
 Shipped as part of Porsche's Car Connect services for the Porsche Connect platform.
@@ -230,17 +230,17 @@ IoT
 Quick facts
 App: Porsche
 Category: Automotive
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Porsche?
-I worked on the Porsche Car Connect mobile app. Details of scope and stack are shared on request.
+What did Digital Space Agency do on Porsche?
+We worked on the Porsche Car Connect mobile app. Details of scope and stack are shared on request.
 Who developed the Porsche app?
-Porsche work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the Porsche Car Connect mobile app.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Porsche work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the Porsche Car Connect mobile app.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Adidas Training by Runtastic
@@ -269,7 +269,7 @@ Runtastic is the fitness app brand from Adidas, now sold as the adidas Running a
 www.runtastic.com
 My role
 I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
-What I built
+What we built
 Ported the Adidas Training Android app to Android TV on Facebook Portal TV as the sole developer, in partnership with Adidas and Facebook.
 Built video playback and download, guided timed workouts and training plans personalised to the user's body data, with fitness tracking and rewards.
 Architecture and approach
@@ -299,17 +299,17 @@ Sole developer
 Quick facts
 App: Adidas Training by Runtastic
 Category: Sportswear and fitness
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Adidas Training by Runtastic?
+What did Digital Space Agency do on Adidas Training by Runtastic?
 I built the Adidas Training by Runtastic app for the Facebook Portal TV device. Details of scope and stack are shared on request.
 Who developed the Adidas Training by Runtastic app?
-Adidas Training by Runtastic work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Adidas Training by Runtastic work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I built the Adidas Training by Runtastic app for the Facebook Portal TV device.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -337,8 +337,8 @@ About the brand
 Lifecake was a private family photo and video app that turned a child's photos into a timeline for sharing with family. It was started in London in 2012 and acquired by Canon Europe in 2015. The service closed on 30 June 2020, and its founders launched BackThen as a successor. Source: Wikipedia. Source: Lifecake timeline.
 global.canon
 My role
-I worked on the Lifecake app for Canon.
-What I built
+We worked on the Lifecake app for Canon.
+What we built
 Android developer on Lifecake for Canon (2017 to 2018), the app's years under Canon Europe's ownership.
 Worked on the Android client for a private family photo and video timeline.
 Outcome
@@ -355,17 +355,17 @@ Notifications
 Quick facts
 App: Canon Lifecake
 Category: Photography
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Canon Lifecake?
-I worked on the Lifecake app for Canon. Details of scope and stack are shared on request.
+What did Digital Space Agency do on Canon Lifecake?
+We worked on the Lifecake app for Canon. Details of scope and stack are shared on request.
 Who developed the Canon Lifecake app?
-Canon Lifecake work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the Lifecake app for Canon.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Canon Lifecake work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the Lifecake app for Canon.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -393,8 +393,8 @@ About the brand
 The F1 TV app is the official Formula 1 streaming app. With a subscription it streams every session live and on demand, with onboard cameras, live team radios, live timing and coverage of support series such as F2 and F3. It runs on mobile, the web and TV platforms. Source: Wikipedia. Source: F1 TV Pro.
 f1tv.formula1.com
 My role
-I worked on the F1 TV mobile app.
-What I built
+We worked on the F1 TV mobile app.
+What we built
 Led a five-person iOS and Android team delivering the mobile and video-on-demand features of the official F1 TV app, working with product, backend, video and mobile teams.
 Built live video for F1 TV Pro: live races with all 20 driver on-board cameras, dual-stream live video, timing synchronisation and content scheduling.
 Stayed hands-on in production code while leading mobile architecture discussions with client and technical stakeholders.
@@ -428,17 +428,17 @@ Team lead
 Quick facts
 App: F1 TV
 Category: Sport and streaming
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on F1 TV?
-I worked on the F1 TV mobile app. Details of scope and stack are shared on request.
+What did Digital Space Agency do on F1 TV?
+We worked on the F1 TV mobile app. Details of scope and stack are shared on request.
 Who developed the F1 TV app?
-F1 TV work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the F1 TV mobile app.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+F1 TV work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the F1 TV mobile app.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -466,9 +466,9 @@ About the brand
 The OneFootball app is a free football app for iOS and Android with live scores, news, notifications, statistics and video, including live streams and highlights from selected competitions. OneFootball is based in Berlin. Source: Wikipedia. Source: OneFootball on Google Play.
 onefootball.com
 My role
-I worked on the OneFootball mobile app.
-What I built
-Permanent role (Jan 2025 to Feb 2026): delivered OneFootball's Flutter e-commerce storefront, bringing merchandise purchasing into the consumer app.
+We worked on the OneFootball mobile app.
+What we built
+Long-term engagement (Jan 2025 to Feb 2026): delivered OneFootball's Flutter e-commerce storefront, bringing merchandise purchasing into the consumer app.
 Contract role at Stadion (May to Nov 2024): built the Flutter commerce functionality behind the OneFootball Fan Shop, launched in Germany in October 2024 with 11teamsports Group to more than a million German users.
 Built supporting backend and internal tooling for sale items, promotions and time-limited campaigns.
 Architecture and approach
@@ -507,17 +507,17 @@ Test coverage
 Quick facts
 App: OneFootball
 Category: Sport and media
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on OneFootball?
-I worked on the OneFootball mobile app. Details of scope and stack are shared on request.
+What did Digital Space Agency do on OneFootball?
+We worked on the OneFootball mobile app. Details of scope and stack are shared on request.
 Who developed the OneFootball app?
-OneFootball work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the OneFootball mobile app.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+OneFootball work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the OneFootball mobile app.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -545,8 +545,8 @@ About the brand
 Shoal is a mobile savings app where people earn interest through Savings Pots while their money is referenced against a global portfolio of green and social projects. The sustainable asset portfolio is managed by Standard Chartered, and the app shows the CO2e avoided and clean water generated by each saver's pots. Source: Wikipedia. Source: Shoal.
 www.shoalapp.com/
 My role
-I worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
-What I built
+We worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
+What we built
 Delivered Shoal for Standard Chartered Ventures, through Hi Mum! Said Dad, as the solo Flutter developer, taking the app over the line to release in a short engagement (January 2022).
 Built onboarding, account setup and deposit features, with AWS Cognito authentication.
 Architecture and approach
@@ -577,17 +577,17 @@ Solo developer
 Quick facts
 App: Shoal for Standard Chartered
 Category: Fintech
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Shoal for Standard Chartered?
-I worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter. Details of scope and stack are shared on request.
+What did Digital Space Agency do on Shoal for Standard Chartered?
+We worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter. Details of scope and stack are shared on request.
 Who developed the Shoal for Standard Chartered app?
-Shoal for Standard Chartered work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Shoal for Standard Chartered work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the Shoal app for Standard Chartered, in a regulated financial product where testing and release discipline matter.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -616,7 +616,7 @@ The Mercedes-AMG PETRONAS F1 Team app is the team's official mobile app for fans
 www.mercedesamgf1.com
 My role
 Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
-What I built
+What we built
 Android developer through IBM on the official Mercedes-AMG PETRONAS F1 Team fan app (2017).
 Delivered an Android application to a tight deadline.
 Outcome
@@ -632,17 +632,17 @@ Tight deadlines
 Quick facts
 App: IBM for Mercedes-AMG PETRONAS F1
 Category: Motorsport
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on IBM for Mercedes-AMG PETRONAS F1?
+What did Digital Space Agency do on IBM for Mercedes-AMG PETRONAS F1?
 Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline. Details of scope and stack are shared on request.
 Who developed the IBM for Mercedes-AMG PETRONAS F1 app?
-IBM for Mercedes-AMG PETRONAS F1 work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+IBM for Mercedes-AMG PETRONAS F1 work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. Through IBM, I built an Android application for the Mercedes-AMG PETRONAS F1 Team, delivered to a tight deadline.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -671,7 +671,7 @@ Nuvu was Ericsson's first end-to-end subscription video-on-demand service, annou
 www.accedo.tv
 My role
 I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
-What I built
+What we built
 Architect and developer on Nuvu by Ericsson, working for Accedo (2015 to 2016), the agency in a fully agile team at Accedo's Stockholm office.
 Nuvu launched as an Android app with a personalised interface, bookmarking and recommendations, and was marketed with operators, starting with Airtel Nigeria.
 Architecture and approach
@@ -701,17 +701,17 @@ Emerging markets
 Quick facts
 App: Accedo NUVU
 Category: Streaming
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Accedo NUVU?
+What did Digital Space Agency do on Accedo NUVU?
 I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016). Details of scope and stack are shared on request.
 Who developed the Accedo NUVU app?
-Accedo NUVU work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Accedo NUVU work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I worked as architect and developer on Nuvu, through Accedo, in a fully agile team at Accedo's Stockholm office (2015 to 2016).
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -739,8 +739,8 @@ About the brand
 The Good Food: Recipe Finder app (formerly the BBC Good Food app) is an ad-free cooking app with thousands of kitchen-tested recipes, exclusive meal plans, a cook mode and how-to videos. It is separate from the Good Food Magazine app, which is the digital edition of the print magazine. Source: Wikipedia. Source: Good Food app FAQ.
 www.bbcgoodfood.com
 My role
-I worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
-What I built
+We worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
+What we built
 Worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
 Outcome
 Part of the Good Food app family, ad-free and kitchen-tested.
@@ -754,17 +754,17 @@ Content app
 Quick facts
 App: BBC Good Food
 Category: Food media
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Client work
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on BBC Good Food?
-I worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder. Details of scope and stack are shared on request.
+What did Digital Space Agency do on BBC Good Food?
+We worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder. Details of scope and stack are shared on request.
 Who developed the BBC Good Food app?
-BBC Good Food work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+BBC Good Food work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We worked on the BBC Good Food recipe app, now called Good Food: Recipe Finder.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -780,7 +780,7 @@ Hushdo
 FlutterFix
 WBS AI Agents & Automations
 
-## ReelMatch | My own product by David Miller | Digital Space Agency
+## ReelMatch | Our own product | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/reelmatch/
 Swipe movie trailers, match with friends and decide what to watch. Flutter, Firebase, TMDB and RevenueCat. Live on the App Store and Google Play. ReelMatch is my own app for deciding what to watch together.
 Home / Work / ReelMatch
@@ -792,7 +792,7 @@ What it is
 ReelMatch is my own app for deciding what to watch together. You swipe through recommendations in a Tinder-style stack, watch trailers, and match with friends on shared interests.
 My role
 I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
-What I built
+What we built
 Designed, built and run end to end: product, UX, architecture, backend, builds and release on the App Store and Google Play.
 A Tinder-style swipe stack of recommendations with trailers, a friends list, shared likes and a match view that shows what two people both want to see.
 A free tier and a premium tier with in-app purchases, invitations with referral rewards, and push notifications.
@@ -840,17 +840,17 @@ Xcode Cloud
 Quick facts
 App: ReelMatch
 Category: Entertainment
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: My own product
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on ReelMatch?
+What did Digital Space Agency do on ReelMatch?
 I designed, built and run ReelMatch end to end, live on the App Store and Google Play. Details of scope and stack are shared on request.
 Who made ReelMatch?
-ReelMatch work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+ReelMatch work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I designed, built and run ReelMatch end to end, live on the App Store and Google Play.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -866,7 +866,7 @@ Hushdo
 FlutterFix
 WBS AI Agents & Automations
 
-## Hushdo | My own product by David Miller | Digital Space Agency
+## Hushdo | Our own product | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/hushdo/
 Voice notes that are transcribed, structured and searched entirely on-device with local AI models. Zero server uploads. Early access waitlist open at hushdo.com. Hushdo is my own voice-notes app.
 Home / Work / Hushdo
@@ -878,8 +878,8 @@ What it is
 Hushdo is my own voice-notes app. Notes are transcribed, structured and searched entirely on the device using local AI models, with zero server uploads. An early-access waitlist is open at hushdo.com.
 hushdo.com
 My role
-I am designing and building Hushdo as a privacy-first product.
-What I built
+We are designing and building Hushdo as a privacy-first product.
+What we built
 Designing and building Hushdo end to end: a private, on-device voice-to-tasks app, iOS first and Android second.
 Whisper speech-to-text and small quantised language models run locally, so recordings and text never leave the phone.
 Architecture and approach
@@ -913,17 +913,17 @@ Localisation
 Quick facts
 App: Hushdo
 Category: Productivity
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: My own product
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on Hushdo?
-I am designing and building Hushdo as a privacy-first product. Details of scope and stack are shared on request.
+What did Digital Space Agency do on Hushdo?
+We are designing and building Hushdo as a privacy-first product. Details of scope and stack are shared on request.
 Who made Hushdo?
-Hushdo work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I am designing and building Hushdo as a privacy-first product.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+Hushdo work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. We are designing and building Hushdo as a privacy-first product.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -939,7 +939,7 @@ ReelMatch
 FlutterFix
 WBS AI Agents & Automations
 
-## FlutterFix | Side project by David Miller | Digital Space Agency
+## FlutterFix | Side project by Digital Space Agency | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/flutterfix/
 Open-source tool that lets testers long-press a bug in a Flutter app, then sends the report to Claude, which opens a pull request with the fix. MIT licensed. FlutterFix is an open-source, MIT-licensed tool for Flutter teams.
 Home / Work / FlutterFix
@@ -952,7 +952,7 @@ FlutterFix is an open-source, MIT-licensed tool for Flutter teams. A tester long
 github.com/digital-space-agency-com/flutterfix
 My role
 I created and maintain FlutterFix.
-What I built
+What we built
 Created and maintain FlutterFix, an open-source MIT-licensed Dart package, widget, receiver and server for Flutter teams.
 A tester long-presses the element, types one sentence, and the report is sent with the element, its text, the widget path that built it, a screenshot with the element outlined and a replay of the seconds before.
 Architecture and approach
@@ -985,17 +985,17 @@ Mobile-first workflow
 Quick facts
 App: FlutterFix
 Category: Developer tools
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: Side project
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on FlutterFix?
+What did Digital Space Agency do on FlutterFix?
 I created and maintain FlutterFix. Details of scope and stack are shared on request.
 Who made FlutterFix?
-FlutterFix work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I created and maintain FlutterFix.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+FlutterFix work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I created and maintain FlutterFix.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
@@ -1011,19 +1011,19 @@ ReelMatch
 Hushdo
 WBS AI Agents & Automations
 
-## WBS AI Agents & Automations | AI & automation by David Miller | Digital Space Agency
+## WBS AI Agents & Automations | AI & automation by Digital Space Agency | Digital Space Agency
 URL: https://www.digitalspaceagency.com/work/ai-automations/
-n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring. I build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme.
+n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring. We build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme.
 Home / Work / WBS AI Agents & Automations
 AI & automation · Automation
 WBS AI Agents & Automations
 n8n workflows and MCP-based AI agents for back-office and engineering work: schema-validated tool calls, retries and monitoring.
 Most small teams lose hours to work that is predictable but not simple: moving data between tools, checking it, and chasing exceptions. I build agents and workflows that do it, with the same release discipline as a shipped mobile app.
 What it is
-I build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme. The same agents and workflows run Digital Space Agency itself.
+We build n8n workflows and MCP-based AI agents for back-office and engineering work, and I am completing WBS Coding School's AI Agents programme. The same agents and workflows run Digital Space Agency itself.
 My role
 I design, build and monitor automations for my own studio and for clients.
-What I built
+What we built
 n8n workflows and Python-based AI agents for back-office and engineering work, including the agents that run Digital Space Agency itself.
 Completed WBS Coding School's AI Agents and Automation programme (July to October 2026): two applied business-workflow prototypes and a final MVP combining n8n, Python, APIs and AI agents to solve a real business problem end to end.
 Architecture and approach
@@ -1057,17 +1057,17 @@ Workflow automation
 Quick facts
 App: WBS AI Agents & Automations
 Category: Automation
-Built by: David Miller, Digital Space Agency, Hamburg
+Built by: Digital Space Agency, Hamburg
 Type: AI & automation
 Discuss a similar project All work
 No mail app? Open in Gmail or write to info@dsa.team Copy
 FAQ
-What did David Miller do on WBS AI Agents & Automations?
+What did Digital Space Agency do on WBS AI Agents & Automations?
 I design, build and monitor automations for my own studio and for clients. Details of scope and stack are shared on request.
 Who made WBS AI Agents & Automations?
-WBS AI Agents & Automations work was done by David Miller of Digital Space Agency, a Flutter and mobile developer based in Hamburg. I design, build and monitor automations for my own studio and for clients.
-Can David Miller build a similar app?
-Yes. I take contract engagements and am open to full-time roles, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
+WBS AI Agents & Automations work was done by Digital Space Agency, a Flutter, AI and mobile studio based in Hamburg. I design, build and monitor automations for my own studio and for clients.
+Can Digital Space Agency build a similar app?
+Yes. We take project and contract engagements, working in Hamburg or remotely on CET. Email info@dsa.team with a short description of the project.
 More work
 FIFA
 Porsche
